@@ -16,10 +16,10 @@ author: 'Casper McFadden'
 nickname: casper
 bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
 location: 'Maine, USA'
-url: 'http://biomadeira.github.io/jhblog/'
+url: 'http://kjuhee0712.github.io/jhblog/'
 image: 'assets/images/casper.png'
 
-short_url: 'biomadeira.github.io/jhblog/'
+short_url: 'kjuhee0712.github.io/jhblog/'
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -56,13 +56,13 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: biomadeira
+username: kjuhee0712
 repo: jhblog
 branch: master
 relative_source: ../jhblog/
 destination: ../jhblog-pages/
-production_url:  https://biomadeira.github.io/jhblog/
-source_url:      https://github.com/biomadeira/jhblog/
+production_url:  https://kjuhee0712.github.io/jhblog/
+source_url:      https://github.com/kjuhee0712/jhblog/
 
 exclude:
   - README.md
