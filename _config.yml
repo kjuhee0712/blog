@@ -4,24 +4,24 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'kr'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'kjuhee's blog
+description: "행복한 사람으로 살기"
 
 # Author's info
-author: 'Casper McFadden'
-# edit 'categories' in the front matter of every post to match this username
-nickname: casper
-bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
-location: 'Maine, USA'
+author: 'kjuhee'
+nickname: juhee
+location: 'seoul, KOREA'
 url: 'http://kjuhee0712.github.io/jhblog/'
-image: 'assets/images/casper.png'
+image: 'assets/images/logo.png'
+# edit 'categories' in the front matter of every post to match this username
+# bio: 
 
 short_url: 'kjuhee0712.github.io/jhblog/'
-google_analytics: UA-69281367-1
-disqus: username
+disqus: Kjuhee
+# google_analytics: UA-69281367-1
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /jhblog/
 
