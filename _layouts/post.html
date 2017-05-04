@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div id="right">
+
+  <section class="section-padding post" itemprop="articleBody">
+    <h2>{{ page.title }}</h2>
+    <div class="post_wrap">
+    {{ content }}
+    </div>
+  </section>
+
+  <div class="post_row prenext">
+
+   {% if page.previous.url %}
+    <div class="prev 6u 12u$(xsmall) preview">
+        <span class="txt"><< 이전 작업</span>
+        <a  href="{{page.previous.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.previous.image-sm }}" alt="" /></a>
+        <a href="{{page.previous.url | prepend: site.baseurl }}" class="txt" itemprop="url">
+          <h3 class="preview__header" itemprop="name">{{ page.previous.title }}</h3>
+          <!-- <p class="preview__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p> -->
+        </a>   
+       <!--  <ul class="preview__category">
+          {% for categories in page.previous.categories %}
+            <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+          {% endfor %}
+        </ul>    -->  
+    </div>
+  {% endif %}
+ 
+
+   {% if page.next.url %}
+    <div class="next 6u 12u$(xsmall) preview">
+        <span class="txt">다음작업 >></span>
+        <a  href="{{page.next.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.next.image-sm }}" alt="" /></a>
+        <a href="{{page.next.url | prepend: site.baseurl }}" class="txt" itemprop="url">
+          <h3 class="preview__header" itemprop="name">{{ page.next.title }}</h3>
+          <!-- <p class="preview__date" itemprop="datePublished" datetime="{{ page.next.date | date_to_xmlschema }}">{{ page.next.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p> -->
+        </a>   
+        <!-- <ul class="preview__category">
+          {% for categories in page.next.categories %}
+            <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+          {% endfor %}
+        </ul>   -->     
+    </div>
+    {% endif %}
+
+  </div>
+
+</div>
