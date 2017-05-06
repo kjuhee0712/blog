@@ -1,14 +1,18 @@
 # Jykell configuration
 #markdown: redcarpet
 #highlighter: pygments
-markdown: kramdown
-highlighter: rouge
-paginate: 5
 language: 'kr'
 
 # Website info
-name: 'kjuhee's blog
+name: kjuhee's blog
+title: kjuhee's blog
 description: "행복한 사람으로 살기"
+avatar: https://kjuhee0712.github.io/jhblog/assets/images/logo.png
+email: kjuhee0712@gmail.com 
+baseurl: /jhblog/
+paginate: 50
+paginate_path: "/jhblog/blog/page-:num"
+
 
 # Author's info
 author: 'kjuhee'
@@ -16,6 +20,8 @@ nickname: juhee
 location: 'seoul, KOREA'
 url: 'http://kjuhee0712.github.io/jhblog/'
 image: 'assets/images/logo.png'
+default_img: assets/images/logo.png
+profile_img: assets/images/logo.png
 # edit 'categories' in the front matter of every post to match this username
 # bio: 
 
@@ -23,53 +29,30 @@ short_url: 'kjuhee0712.github.io/jhblog/'
 disqus: Kjuhee
 # google_analytics: UA-69281367-1
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jhblog/
 
 # Permalinks
-permalink: /:title
-# permalink: /author/:username
-# permalink: /tag/:tag
+permalink: /:year/:month/:day/:title/
 
+# Build settings
+include: ["_categories", "_tags"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+syntax_highlighter: rouge
+syntax_highlighter_opts:
+# Use existing pygments syntax highlighting css
+css_class: 'highlight'
+
+# Sass
+sass:
+  style: expanded
 
 # gems and other configs
-gems: [jekyll-paginate]
-exclude: [vendor]
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
 
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author's page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post's page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
 safe: false
 lsi: false
-username: kjuhee0712
 repo: jhblog
 branch: master
 relative_source: ../jhblog/
 destination: ../jhblog-pages/
 production_url:  https://kjuhee0712.github.io/jhblog/
 source_url:      https://github.com/kjuhee0712/jhblog/
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
