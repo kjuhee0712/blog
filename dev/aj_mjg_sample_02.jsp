@@ -1,4 +1,4 @@
-<!-- 제이쿼리 사용 -->
+﻿<!-- 제이쿼리 사용 -->
 <script type="text/javascript" src="jquery.min.js"></script>
 
 <script>    

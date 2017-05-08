@@ -1,7 +1,9 @@
-# Jykell configuration
+﻿# Jykell configuration
 #markdown: redcarpet
 #highlighter: pygments
+# encoding: utf-8
 language: 'kr'
+encoding: utf-8
 
 # Website info
 name: kjuhee's blog

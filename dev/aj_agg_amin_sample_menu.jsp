@@ -1,4 +1,4 @@
-<nav class="left_menu collapse in width" id="menu">
+﻿<nav class="left_menu collapse in width" id="menu">
 
 <!-- 페이지 활성된 메뉴의 경우, li 요소에 active 클래스 삽입 해 주세요. -->
 <ul>

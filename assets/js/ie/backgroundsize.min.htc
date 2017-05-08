@@ -1,4 +1,4 @@
-<component lightWeight="true">
+﻿<component lightWeight="true">
 <attach event="onpropertychange" onevent="handlePropertychange()" />
 <attach event="ondetach" onevent="restore()" />
 <attach event="onresize" for="window" onevent="handleResize()" />

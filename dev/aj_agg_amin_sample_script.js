@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+﻿$(document).ready(function() { 
 // 새로고침 스크립트
 
 
