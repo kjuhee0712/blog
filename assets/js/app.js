@@ -1,4 +1,4 @@
-﻿var Tabs = (function() {
+var Tabs = (function() {
   var s;
 
   return {
