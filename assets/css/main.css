@@ -264,7 +264,8 @@ s@import url("font-awesome.min.css");
 		margin: 0 0 -1px -2.5em;
 	}
 
-	.post_row > article { height:420px; }
+	.post_row > article { height:auto; }
+	.post_row > article a { display:inline-block; width:100%; }
 	
 	.post_row.uniform > * {
 		padding: 2.5em 0 0 2.5em;
@@ -2604,12 +2605,11 @@ s@import url("font-awesome.min.css");
 		.post_row p { display:block; font-size:13px; }
 		.post_row header h2 { margin-bottom:0; }
 
-		.post_row a.txt h3 { display:inline; font-size:17px; color:#666; }
+		.post_row a.txt h3 { display:inline-block; margin-bottom:0; font-size:17px; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; width:100%; overflow:hidden; }
 		.post_row a.txt span, .post_row a.txt p { margin-bottom:0; font-size:14px; color:#aaa; line-height:20px; }
-		.post_row ul.preview__category { margin:5px 0 3em 0; padding:0; height:40px; line-height:initial; 
-		 overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; /* 라인수 */  -webkit-box-orient: vertical; word-wrap:break-word; line-height: 20px; height: 40px; }
-		.post_row ul.preview__category li { line-height:initial; padding:0; padding-right:0.3em; }
-		.post_row ul.preview__category li a { font-size:14px; line-height:20px; color:#aaa; }
+		.post_row ul.preview__category { margin:0 0 3em 0; padding:0; display:block; height:44px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; width:100%; overflow:hidden; }
+		.post_row ul.preview__category li { display:inline; line-height:normal; padding:0; padding-right:0.3em; }
+		.post_row ul.preview__category li a { font-size:14px; color:#aaa; width:auto; display:inline; }
 
 		.category_wrap h2 { margin-top:0.5em; margin-bottom:59px; }
 /* Poptrox */
@@ -2973,11 +2973,11 @@ s@import url("font-awesome.min.css");
 	
 				#header ul { width:80%; margin:2em auto 0; text-align:center; } 	
 				#header ul li { display:inline-block; float:none; padding:0 0.6em; } 	
-				#header ul li a { font-size:12px; line-height:initial; } 	
+				#header ul li a { font-size:12px; line-height:normal; } 	
 				#header ul li.enter { clear:none; }
 				#header .image.avatar { width:30%; }
 				#right #one p { font-size:12px; line-height:20px; }
-				.post_row a.txt h3 { font-size:13px; display:inline-block; line-height:20px; margin-bottom:0; }
+				.post_row a.txt h3 { font-size:13px; display:block; line-height:25px; margin-bottom:0; }
 				.post_row a.txt span, .post_row a.txt p, .post_row ul.preview__category { margin-top:0; font-size:12px; }
 				.image.fit { margin-bottom:5px; }
 				.post_row .prev span.txt, .post_row .next span.txt { font-size:13px; }
