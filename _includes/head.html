@@ -13,25 +13,6 @@
 
 		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
 		<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
-
-		
-
-		<script>
-			$(document).ready(function(){
-				var ua = window.navigator.userAgent;
-					if(ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0){ //윈도우 10까지는 MSIE 윈도우 11부터는 Trident/를 사용한다.
-						document.body.className="ie";
-				}
-			});
-		</script>
-
-		<!--[if lte IE 8]>
-		<script type="text/javascript">
-			window.location = "ie8.html";
-		</script>
-		<![endif]-->
-
-
 	</head>
 	<body id="top">
 		<!-- Header -->
