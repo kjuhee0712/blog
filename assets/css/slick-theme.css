@@ -89,12 +89,12 @@
 {
     float:left;
     margin-right:10px;
-    content: url(../images/icon_left.png);
+    content: url(/images/icon_left.png);
 }
 [dir='rtl'] .slick-prev:before
 {
     float:left;
-    content: url(../images/icon_right.png);
+    content: url(/images/icon_right.png);
 }
 
 .slick-next
