@@ -89,12 +89,12 @@
 {
     float:left;
     margin-right:10px;
-    content: url(/images/icon_left.png);
+    content: url({{ '/images/icon_left.png' | prepend: site.baseurl }});
 }
 [dir='rtl'] .slick-prev:before
 {
     float:left;
-    content: url(/images/icon_right.png);
+    content: url({{ '/images/icon_right.png' | prepend: site.baseurl }});
 }
 
 .slick-next
@@ -110,12 +110,12 @@
 {
     float:right;
     margin-left:10px;
-    content: url(../images/icon_right.png);
+    content: url({{ '/images/icon_right.png' | prepend: site.baseurl }});
 }
 [dir='rtl'] .slick-next:before
 {
     float:right;
-    content: url(../images/icon_left.png);
+    content: url({{ '/images/icon_left.png' | prepend: site.baseurl }});
 }
 
 /* Dots */
