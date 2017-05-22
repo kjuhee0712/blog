@@ -8,9 +8,15 @@
 		<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
 		<link rel="stylesheet" href="{{ '/assets/css/post.css' | prepend: site.baseurl }}">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="{{ '/assets/css/slick.css' | prepend: site.baseurl }}"/>
+  		<link rel="stylesheet" type="text/css" href="{{ '/assets/css/slick-theme.css' | prepend: site.baseurl }}"/>
 
 		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
 		<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="{{ '/assets/js/slick.min.js' | prepend: site.baseurl }}"></script>
 
 		<script>
 			$(document).ready(function(){
@@ -34,29 +40,21 @@
 			<header id="header">
 				<div class="inner">
 					<a href="/" class="image avatar"><img src="{{ site.baseurl }}/images/logo.png" alt="" /></a>
-					<!-- <ul>
-						{% for category in site.categories %}
-						  <li><a href="/category/{{ category | first }}/"># {{ category | first }}</a></li>	    
-						{% endfor %}
-					</ul> -->
 					<ul>
-						<li><a href="/category/WebPlan/">#기획</a></li>
-						<li><a href="/category/Design/">#디자인</a></li>
-						<li class="enter"><a href="/category/FrontEnd/">#프론트앤드개발</a></li>
-						<li><a href="/category/Html,Css/">#HTML,CSS</a></li>
-						<li class="enter"><a href="/category/JS,Jquery/">#JS/Jquery</a></li>
-						<li><a href="/category/Homepage/">#홈페이지</a></li>
-						<li class="enter"><a href="/category/Admin/">#관리자페이지</a></li>
-						<li><a href="/category/MobileWeb/">#모바일</a></li>
-						<li class="enter"><a href="/category/ResponsiveWeb/">#반응형웹</a></li>
-						<li><a href="/category/Wordpress/">#워드프레스</a></li>
-						<li class="enter"><a href="/category/ShoppingMall/">#쇼핑몰</a></li>
-						<li><a href="/category/MakeShop/">#메이크샵</a></li>
-						<li class="enter"><a href="/category/Cafe24/">#카페24</a></li>
-						<li><a href="/category/PPT/">#PPT</a></li>
-						<li><a href="/category/Logo/">#로고</a></li>
-						<li><a href="/category/GraphicDesign/">#인쇄</a></li>
-						<li><a href="/category/ETC/">#기타</a></li>
+						<li><a href="/category/Date/">#데이트</a></li>
+						<li><a href="/category/Food/">#맛집</a></li>
+						<li><a href="/category/Travel/">#여행</a></li>
+						<li><a href="/category/Play/">#놀기</a></li>
+						<li><a href="/category/See/">#보기</a></li>						
+						<li><a href="/category/Movie/">#영화</a></li>
+						<li><a href="/category/Book/">#책</a></li>
+						<li><a href="/category/Photo/">#사진</a></li>
+						<li><a href="/category/Diary/">#일기</a></li>
+						<li><a href="/category/Designer/">#디자이너</a></li>
+						<li><a href="/category/Publisher/">#퍼블리셔</a></li>
+						<li><a href="/category/Handicraft/">#만들기</a></li>
+						<li><a href="/category/Study/">#공부</a></li>
+						<li><a href="/category/Review/">#쇼핑/리뷰</a></li>
 					</ul>
 				</div>
 				{% include footer.html %}

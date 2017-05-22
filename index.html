@@ -2,29 +2,37 @@
 layout: default
 ---
 
-<!-- Main -->
-<div id="right">
-	<!-- One -->
-	<section id="one">
-		<header class="major">
-			<h2>About me.</h2>
-		</header>
-		<p>
-			안녕하세요. 권주희입니다. <br>
-			어떻게하면 약소한 실력을 활용하여 만족 할 만한 사이트를 만들까 매일 고민하고 있으며,<br>
-			참여한 모든 프로젝트와, 내손으로 만든 모든 사이트를 아끼고 끝까지 책임감으로 돌보려 합니다.<br>
-			기획자로, 디자이너로, 지금은 퍼블리셔로 좀더 나은 서비스를 제공하고자 열심히 공부하고 있습니다.<br>
-			가족과 친구, 동물과 꽃을 사랑하며, 사진과 커피를 좋아하는 저의 소박한 삶을<br>
-			저를 믿고 일하는 사람들과 함께 공유하고 싶습니다.<br>
-			만나서 반갑습니다!
-		</p>
-		<ul class="actions hide">
-			<li><a href="#" class="button">Learn More</a></li>
-		</ul>
-	</section>
+{% for post in site.categories.Design %}
+<div class="main_banner">
+ 	<div>
+ 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
+ 		<img src="{{ post.image-sm }}" alt="" />
+  	   	<h3 class="header" itemprop="name">{{ post.title }}</h3>
+		<p class="excerpt" itemprop="description">{{ post.description }}</p> 
+		<p class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</p>
+	</a>	
+	</div>
+</div>
+{% endfor %}
 
-	<!-- Two -->
-	<section id="two">
+				
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.main_banner').slick({
+      	slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+      });
+    });
+</script>
+
+
+<!-- Two
+<section id="two">
 		<h2>Recent Work</h2>
 		<div class="post_row">
 			{% for post in paginator.posts %}
@@ -33,7 +41,7 @@ layout: default
 				<a href="{{ post.url | prepend: site.baseurl }}" class="txt" itemprop="url">					
 					<h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
 					<p class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p>
-					<!-- <p class="preview__excerpt" itemprop="description">{{ post.description }}</p> -->
+					<p class="preview__excerpt" itemprop="description">{{ post.description }}</p> 
 				</a>
 				<ul class="preview__category">
 					{% for categories in post.categories %}
@@ -44,4 +52,4 @@ layout: default
 			{% endfor %}					
 		</div>
 	</section>					
-</div>		
+</div>		-->
