@@ -2,8 +2,9 @@
 layout: default
 ---
 
-{% for post in site.categories.Design %}
+
 <div class="main_banner">
+	{% for post in site.categories.Design %}
  	<div>
  	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
  		<img src="{{ post.image-sm }}" alt="" />
@@ -12,8 +13,9 @@ layout: default
 		<p class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</p>
 	</a>	
 	</div>
+	{% endfor %}
 </div>
-{% endfor %}
+
 
 				
 
