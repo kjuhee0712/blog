@@ -22,7 +22,7 @@
 .main .banner_wrap .overay { position:absolute; top:0; display:block; width:120px; height:100%; z-index:10; background-color:rgba(255,255,255,0.7); }
 .main .banner_wrap .overay.left { left:0; }
 .main .banner_wrap .overay.right { right:0; }
-.main .main_banner .slick-prev, .main .main_banner .slick-next { top:156px; font-size:0; }
+.main .main_banner .slick-prev, .main .main_banner .slick-next { top:156px; font-size:0; z-index:50; }
 .main .main_banner .slick-prev { left:20px; }
 .main .main_banner .slick-next { right:20px; }
 .main .main_banner .slick-initialized .slick-slide { position:relative; }
