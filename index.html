@@ -12,11 +12,11 @@ layout: default
 		 	<div>
 		 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
 		 		<img src="{{ post.image-sm }}" alt="post image" />
-		 		<p>
-			  	   	<h3 class="header" itemprop="name">{{ post.title }}</h3>
-					<span class="excerpt" itemprop="description">{{ post.description }}</span> 
-					<span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</span>
-		 		</p>
+		 		<dl>
+			  	   	<dt class="header" itemprop="name">{{ post.title }}</dt>
+					<dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
+					<dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
+		 		</dl>
 			</a>	
 			</div>
 			{% endfor %}
