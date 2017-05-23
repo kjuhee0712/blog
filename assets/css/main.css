@@ -3,9 +3,10 @@
 
 /* header */
 #header { position:fixed; top:0; left:0; display:block; padding:30px; width:260px; height:100%; background-color:rgba(255,255,255,0.9); text-align:center; z-index:900; }
-#header .avatar, #header ul { margin-top:120px; width:100%; height:auto; }
-#header ul li { display:inline-block; float:left; width:50%; height:auto; }
-#header ul li a { width:100%; height:auto; color:#888; font-size:13px;  }
+#header .avatar { width:100%; height:auto; }
+#header ul { margin-top:120px; width:100%; height:auto; }
+#header ul li { display:inline-block; float:left; width:50%; height:auto; line-height:24px; color:#888; font-size:13px; }
+#header ul li a { width:100%; height:auto; }
 #header #footer { position:absolute; bottom:0; left:0; display:inline-block; width:100%; height:auto; } 
 
 /* content */
