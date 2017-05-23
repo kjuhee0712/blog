@@ -9,7 +9,7 @@
 #header ul li a { width:100%; height:auto; text-indent:10px; }
 #header #footer { position:absolute; bottom:30px; left:0; display:inline-block; width:100%; height:auto; text-align:center; } 
 #header #footer ul { display:inline-block; }
-#header #footer ul li { display:inline; width:auto; } 
+#header #footer ul li { display:inline; float:none; width:auto; text-align:center; } 
 
 /* content */
 #content { display:inline-block; padding-left:260px; width:100%; min-height:100%; height:auto; }
@@ -31,6 +31,10 @@
 .main .main_banner .slick-slide a img { width:100%; height:auto; }
 .main .main_banner .slick-slide dl { position:absolute; top:0; left:0; display:block; padding:30% 10%; width:100%; height:100%; background-color:rgba(0,0,0,0.4); line-height:normal; z-index:11 }
 .main .main_banner .slick-slide a:hover dl { background-color:rgba(0,0,0,0.3); }
-.main .main_banner .slick-slide dl dt { display:inline-block; width:100%; height:auto; font-size:20px; color:#fff; text-align:center;  text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
-.main .main_banner .slick-slide dl dd.excerpt { display:inline-block; margin-top:25px; width:100%; height:auto; font-size:13px; color:#fff; text-align:center;  text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
-.main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
+.main .main_banner .slick-slide dl dt { display:inline-block; width:100%; height:auto; font-size:20px; color:#fff; text-align:center;  text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
+.main .main_banner .slick-slide dl dd.excerpt { display:inline-block; margin-top:25px; width:100%; height:auto; font-size:13px; color:#fff; text-align:center;  text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
+.main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
+
+.mail .logo_wrap { width:100%; height:auto; background:url(../../images/line_bg.gif) repeat-x center 0; }
+.mail .logo_wrap > div { display:table; margin:0 auto; padding:10%; width:auto; height:auto; }
+.mail .logo_wrap > div img { width:162px; height:auto; }
