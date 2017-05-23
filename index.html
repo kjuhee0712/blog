@@ -8,7 +8,7 @@ layout: default
 	<div class="banner_wrap">
 		<span class="overay left"></span>
 		<div class="main_banner">
-			{% for post in site.categories.Logo %}
+			{% for post in site.categories.MainPost %}
 		 	<div>
 		 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
 		 		<img src="{{ post.image-sm }}" alt="post image" />
