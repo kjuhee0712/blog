@@ -2,22 +2,23 @@
 layout: default
 ---
 
-<div class="main_innerwrap">
+<div class="main innerwrap">
 	
 
-
-	<div class="main_banner">
+	<div class="banner_wrap">
 		<span class="overay left"></span>
-		{% for post in site.categories.Logo %}
-	 	<div>
-	 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
-	 		<img src="{{ post.image-sm }}" alt="" />
-	  	   	<h3 class="header" itemprop="name">{{ post.title }}</h3>
-			<p class="excerpt" itemprop="description">{{ post.description }}</p> 
-			<p class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</p>
-		</a>	
+		<div class="main_banner">
+			{% for post in site.categories.Logo %}
+		 	<div>
+		 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
+		 		<img src="{{ post.image-sm }}" alt="" />
+		  	   	<h3 class="header" itemprop="name">{{ post.title }}</h3>
+				<p class="excerpt" itemprop="description">{{ post.description }}</p> 
+				<p class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</p>
+			</a>	
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 		<span class="overay right"></span>
 	</div>
 
