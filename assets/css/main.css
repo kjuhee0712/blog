@@ -28,6 +28,6 @@
 .main .main_banner .slick-initialized .slick-slide { position:relative; }
 .main .main_banner .slick-initialized .slick-slide img:after { position:absolute; top:0; left:0; display:block; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:10; }
 .main .main_banner .slick-initialized .slick-slide dl { position:absolute; top:0; left:0; display:block; padding:10%; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:11 }
-.main .main_banner .slick-initialized .slick-slide dl dt { display:inline-block; width:100%; height:auto; font-size:20px; color:#fff; text-align:center; font-weight:bold; }
-.main .main_banner .slick-initialized .slick-slide dl dd.excerpt,
-.main .main_banner .slick-initialized .slick-slide dl dd.date { display:inline-block; width:100%; height:auto; font-size:13px; color:#fff; text-align:center; font-weight:bold; }
+.main .main_banner .slick-slide dl dt { display:inline-block; width:100%; height:auto; font-size:20px; color:#fff; text-align:center; font-weight:bold; }
+.main .main_banner .slick-slide dl dd.excerpt,
+.main .main_banner .slick-slide dl dd.date { display:inline-block; width:100%; height:auto; font-size:13px; color:#fff; text-align:center; font-weight:bold; }
