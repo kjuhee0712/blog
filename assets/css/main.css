@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 /* header */
-#header { position:fixed; top:0; left:0; display:block; padding:30px; width:260px; height:100%; background-color:rgba(255,255,255,0.9); text-align:center; z-index:900; }
+#header { position:fixed; top:0; left:0; display:block; padding:60px 30px 0; width:260px; height:100%; background-color:rgba(255,255,255,0.9); text-align:center; z-index:900; }
 #header .avatar { width:100%; height:auto; }
-#header ul { margin-top:120px; width:100%; height:auto; }
-#header ul li { display:inline-block; float:left; width:50%; height:auto; line-height:24px; color:#888; font-size:13px; }
+#header ul { margin-top:80px; width:100%; height:auto; }
+#header ul li { display:inline-block; float:left; width:50%; height:auto; line-height:24px; color:#888; font-size:13px; text-align:left; }
 #header ul li a { width:100%; height:auto; }
 #header #footer { position:absolute; bottom:0; left:0; display:inline-block; width:100%; height:auto; } 
 
@@ -16,4 +16,7 @@
 .main_innerwrap { display:inline-block; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
 
 /* main_banner */
-.main_banner {  }
+.main_banner { position:relative; margin-top:50px; width:100%; height:auto; }
+.main_banner .overay { position:absolute; top:0; width:25%; height:100%; z-index:10; }
+.main_banner .overay.left { left:0; }
+.main_banner .overay.right { right:0; }
