@@ -6,8 +6,8 @@ categories:
   - Design
   - MainPost
 description: test,test,test 
-image: https://kjuhee0712.github.io/images/pages/20111101_bs.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20111101_bs.jpg
+image: https://kjuhee0712.github.io/jhblog/images/pages/20111101_bs.jpg
+image-sm: https://kjuhee0712.github.io/jhblog/images/thumbs/20111101_bs.jpg
 link : http://naver.com
 ---
 
