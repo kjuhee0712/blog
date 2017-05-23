@@ -30,7 +30,7 @@
 .main .main_banner .slick-slide a { height:100%; }
 .main .main_banner .slick-slide a img { width:100%; height:auto; }
 .main .main_banner .slick-slide dl { position:absolute; top:0; left:0; display:block; padding:30% 10%; width:100%; height:100%; background-color:rgba(0,0,0,0.4); line-height:normal; z-index:11 }
-.main .main_banner .slick-slide a:hover dl { background-color:rgba(0,0,0,0); }
+.main .main_banner .slick-slide a:hover dl { background-color:rgba(0,0,0,0.3); }
 .main .main_banner .slick-slide dl dt { display:inline-block; width:100%; height:auto; font-size:20px; color:#fff; text-align:center; }
 .main .main_banner .slick-slide dl dd.excerpt { display:inline-block; margin-top:25px; width:100%; height:auto; font-size:13px; color:#fff; text-align:center; }
 .main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; }
