@@ -17,6 +17,6 @@
 
 /* main_banner */
 .main_banner { position:relative; margin-top:50px; width:100%; height:auto; }
-.main_banner .overay { position:absolute; top:0; width:25%; height:100%; z-index:10; }
+.main_banner .overay { position:absolute; top:0; display:block; width:120px; height:100%; z-index:10; background-color:rgba(255,255,255,0.5); }
 .main_banner .overay.left { left:0; }
 .main_banner .overay.right { right:0; }
