@@ -14,8 +14,8 @@ layout: default
 		 		<img src="{{ post.image-sm }}" alt="post image" />
 		 		<dl>
 			  	   	<dt class="header" itemprop="name">{{ post.title }}</dt>
-					<dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
 					<dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
+					<dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
 		 		</dl>
 			</a>	
 			</div>
