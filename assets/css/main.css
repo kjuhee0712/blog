@@ -21,8 +21,8 @@
 .main.innerwrap { display:inline-block; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
 
 /* main_banner */
-.main .banner_wrap,
-.main .main_banner { position:relative; margin-top:50px; width:100%; height:auto; }
+.main .banner_wrap { position:relative; margin:50px 0; width:100%; height:auto; }
+.main .main_banner { position:relative; width:100%; height:auto; }
 .main .banner_wrap .overay { position:absolute; top:0; display:block; width:120px; height:100%; z-index:10; background-color:rgba(255,255,255,0.5); }
 .main .banner_wrap .overay.left { left:0; }
 .main .banner_wrap .overay.right { right:0; }
