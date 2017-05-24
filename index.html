@@ -67,6 +67,28 @@ layout: default
 		</article>
 
 	</section>
+
+	<section class="recent innerwrap">
+	
+		<article class="no_05">
+			<h2>family</h2>
+			<ul class="post_box img_box">
+				{% for post in site.categories.Moment limit:1 %}
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</article>
+
+		<article class="no_06">
+			<h2>cheese</h2>
+			<ul class="post_box img_box">
+				{% for post in site.categories.Moment limit:3 %}
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</article>		
+
+	</section>
 		
 
 
