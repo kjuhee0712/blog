@@ -38,6 +38,18 @@
 .main .main_banner .slick-slide dl dd.excerpt { display:inline-block; margin-top:25px; width:100%; height:auto; font-size:13px; color:#fff; text-align:center;  text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 .main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 
-.main .logo_wrap { margin:20px 0; width:100%; height:auto; background:url(../../images/line_bg.gif) repeat-x center center; }
+.main .logo_wrap { margin:50px auto; background:url(../../images/line_bg.gif) repeat-x center center; }
 .main .logo_wrap > div { display:table; margin:0 auto; padding:10px; width:auto; height:auto; background-color:#e5e5e5; }
 .main .logo_wrap > div img { width:162px; height:auto; }
+
+.recent article { width:100%; height:380px; }
+.recent article { padding:10%; width:25%; height:100%; background-color:rgba(255,255,255,0.9); border-left:1px solid #e5e5e5; }
+.recent article.01 { margin-left:0; }
+.recent article h1 { width:100%; height:auto; font-size:20px; text-align:center; }
+.recent article h2 { width:100%; height:auto; font-size:13px; text-align:center; color:#888; letter-spacing:5px; }
+.recent article ul.tag_box { margin-top:30px; width:100%; height:auto; }
+.recent article ul.tag_box li { display:inline; margin-right:10px; font-size:13px; color:#557a38; }
+.recent article ul.tag_box li:before { margin-right:3px; font-size:13px; color:#557a38; content:'#'; }
+.recent article ul.tag_box li:before { margin-right:3px; font-size:13px; color:#557a38; content:'#'; }
+.recent article ul.post_box { margin-top:30px; width:100%; height:auto; }
+.recent article ul.post_box li { display:inline-block; padding:5px 0; width:100%; height:auto; list-style:disc outside url('../../images/line_bg.gif'); color:#888; font-size:13px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }

@@ -26,11 +26,12 @@ layout: default
 	
 	<div class="logo_wrap innerwrap"><div><img src="{{ site.baseurl }}/images/logo_s.png" alt="" /></div></div>
 
-	<section class="innerwrap">
-		
+
+	<section class="recent innerwrap">
+	
 		<article class="01">
 			<h1>소중한 오늘하루<br>새로운 순간마다</h1>
-			<ul>
+			<ul class="tag_box">
 				<li><a href="/category/Diary/">diary</a></li>
 				<li><a href="/category/Memory/">memory</a></li>
 				<li><a href="/category/Moment/">moment</a></li>
@@ -39,8 +40,8 @@ layout: default
 		</article>
 
 		<article class="02">
-			<h2>memory</h1>
-			<ul>
+			<h2>memory</h2>
+			<ul class="post_box">
 				{% for post in site.categories.memory limit:7 %}
 			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
@@ -48,8 +49,8 @@ layout: default
 		</article>
 
 		<article class="02">
-			<h2>moment</h1>
-			<ul>
+			<h2>moment</h2>
+			<ul class="post_box">
 				{% for post in site.categories.memory limit:1 %}
 			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="post image" /></a></li>
 				{% endfor %}
@@ -57,8 +58,8 @@ layout: default
 		</article>
 
 		<article class="03">
-			<h2>review</h1>
-			<ul>
+			<h2>review</h2>
+			<ul class="post_box">
 				{% for post in site.categories.memory limit:7 %}
 			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
