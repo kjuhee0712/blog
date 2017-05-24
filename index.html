@@ -50,7 +50,7 @@ layout: default
 
 		<article class="02">
 			<h2>moment</h2>
-			<ul class="post_box">
+			<ul class="post_box img_box">
 				{% for post in site.categories.Moment limit:1 %}
 			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="post image" /></a></li>
 				{% endfor %}
