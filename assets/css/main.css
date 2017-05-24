@@ -58,4 +58,4 @@
 .recent article ul.post_box li a > br { display:none; }
 
 .recent article.no_06 { width:75%; }
-.recent article.no_06 li { width:33.3333%; }
+.recent article.no_06 ul.post_box li { width:33.3333%; }
