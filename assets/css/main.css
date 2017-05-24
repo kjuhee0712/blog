@@ -7,8 +7,8 @@
 /* header */
 #header { position:fixed; top:0; left:0; display:block; padding:60px 30px 0; width:260px; height:100%; background-color:rgba(255,255,255,0.9); text-align:center; z-index:900; }
 #header .avatar { width:100%; height:auto; }
-#header ul { margin-top:80px; width:100%; height:auto; }
-#header ul li { display:inline-block; float:left; width:50%; height:auto; line-height:24px; color:#888; font-size:13px; text-align:left; }
+#header ul { margin-top:80px; float:left; width:50%; height:auto; }
+#header ul li { display:inline-block; float:left; width:100%; height:auto; line-height:24px; color:#888; font-size:13px; text-align:left; }
 #header ul li a { width:100%; height:auto; text-indent:10px; }
 #header #footer { position:absolute; bottom:30px; left:0; display:inline-block; width:100%; height:auto; text-align:center; } 
 #header #footer ul { display:inline-block; }
@@ -38,11 +38,11 @@
 .main .main_banner .slick-slide dl dd.excerpt { display:inline-block; margin-top:25px; width:100%; height:auto; font-size:13px; color:#fff; text-align:center;  text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 .main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 
-.main .logo_wrap { margin:40px auto; background:url(../../images/line_bg.gif) repeat-x center center; }
+.main .logo_wrap { margin:40px auto 0; background:url(../../images/line_bg.gif) repeat-x center center; }
 .main .logo_wrap > div { display:table; margin:0 auto; padding:10px; width:auto; height:auto; background-color:#e5e5e5; }
 .main .logo_wrap > div img { width:130px; height:auto; }
 
-.recent { height:340px; }
+.recent { margin-top:40px; height:340px; }
 .recent article { float:left; padding:2%; width:25%; height:100%; background-color:rgba(255,255,255,0.9); border-left:1px solid #e5e5e5; }
 .recent article.no_01, .recent article.no_04 { margin-left:0; }
 .recent article h1 { margin-top:55px; width:100%; height:auto; font-size:20px; text-align:center; }
