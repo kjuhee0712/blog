@@ -5,6 +5,8 @@ date: 2016-09-07
 categories:
  - Design
  - MainPost
+ - Memory
+ - Moment
  - Date
  - Food
  - Travel
