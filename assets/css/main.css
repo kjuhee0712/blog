@@ -52,3 +52,4 @@
 .recent article ul.tag_box li:before { margin-right:2px; font-size:13px; color:#557a38; content:'#'; }
 .recent article ul.post_box { margin-top:30px; width:100%; height:auto; }
 .recent article ul.post_box li { display:inline-block; padding:5px 0; width:100%; height:auto; list-style:disc outside url('../../images/line_bg.gif'); color:#888; font-size:13px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.recent article ul.post_box li a > br { display:none; }
