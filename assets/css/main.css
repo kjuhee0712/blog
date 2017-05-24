@@ -48,12 +48,12 @@
 .recent article h1 { margin-top:55px; width:100%; height:auto; font-size:20px; text-align:center; }
 .recent article h2 { margin-top:10px; width:100%; height:auto; font-size:13px; text-align:center; color:#888; letter-spacing:7px; }
 .recent article ul.tag_box { margin:30px auto 0; width:60%; height:auto; }
-.recent article ul.tag_box li { display:inline-block; float:left; margin-right:5px; font-size:13px; color:#557a38; }
+.recent article ul.tag_box li { display:inline-block; float:left; margin-right:5px; font-size:13px; color:#e5e5e5; }
 .recent article ul.tag_box li:before { margin-right:2px; font-size:13px; color:#557a38; content:'#'; }
 .recent article ul.post_box { margin-top:25px; width:100%; height:auto; }
 .recent article ul.post_box.img_box { margin-top:20px; padding-bottom:0; }
 .recent article ul.post_box li { display:inline-block; padding:7px 0; width:100%; height:auto; list-style:disc outside url('../../images/list_dot.gif'); color:#888; font-size:13px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
 .recent article ul.post_box.img_box li { padding:0; height:255px; }
-.recent article ul.post_box.img_box li a { height:245px; }
-.recent article ul.post_box.img_box li a img { min-width:100%; min-height:100%; width:auto; height:auto; }
+.recent article ul.post_box.img_box li a { height:265px; text-align:center; }
+.recent article ul.post_box.img_box li a img { min-width:100%; width:auto; height:100%; }
 .recent article ul.post_box li a > br { display:none; }
