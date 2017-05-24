@@ -3,8 +3,24 @@ layout: post
 title: "Craft Beer"
 date: 2016-09-07
 categories:
-  - Design
-  - MainPost
+ - Design
+ - MainPost
+ - Date
+ - Food
+ - Travel
+ - Cheese
+ - Play
+ - See
+ - Movie
+ - Book
+ - Photo
+ - Diary
+ - Designer
+ - Publisher
+ - Handicraft
+ - Study
+ - Review
+ - ETC
 description: test,test,test 
 image: https://kjuhee0712.github.io/jhblog/images/pages/20111101_bs.jpg
 image-sm: https://kjuhee0712.github.io/jhblog/images/thumbs/20111101_bs.jpg
