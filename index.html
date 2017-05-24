@@ -29,7 +29,7 @@ layout: default
 
 	<section class="recent innerwrap">
 	
-		<article class="01">
+		<article class="no_01">
 			<h1>소중한 오늘하루<br>새로운 순간마다</h1>
 			<ul class="tag_box">
 				<li><a href="/category/Diary/">diary</a></li>
@@ -39,7 +39,7 @@ layout: default
 			</ul>
 		</article>
 
-		<article class="02">
+		<article class="no_02">
 			<h2>memory</h2>
 			<ul class="post_box">
 				{% for post in site.categories.Memory limit:7 %}
@@ -48,16 +48,16 @@ layout: default
 			</ul>
 		</article>
 
-		<article class="02">
+		<article class="no_03">
 			<h2>moment</h2>
 			<ul class="post_box img_box">
 				{% for post in site.categories.Moment limit:1 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="post image" /></a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url({{ post.image-sm }}) no-repeat center center cover;">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
 
-		<article class="03">
+		<article class="no_04">
 			<h2>review</h2>
 			<ul class="post_box">
 				{% for post in site.categories.Review limit:7 %}
