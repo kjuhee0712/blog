@@ -63,9 +63,10 @@
 .recent article.no_06 ul.post_box li:last { border-right:0; }
 
 .recent article.no_11 { margin-top:-1%; padding:0; width:100%; background:transparent; }
-.recent article.no_11 ul.post_box li { position:relative; float:left; padding:1%; width:33.3333%; height:auto; }
-.recent article.no_11 ul.post_box.img_box li a { height:350px; }
-.recent article.no_11 ul.post_box li span.title { position:absolute; left:2%; bottom:5%; padding:5% 2%; width:96%; height:auto; background-color:rgba(255,255,255,0.9); font-size:13px; color:#888; }
-.recent article.no_11 ul.post_box li:hover span.title { background-color:rgba(255,255,255,0.3); }
+.recent article.no_11 ul.post_box li { float:left; padding:1%; width:33.3333%; height:auto; }
+.recent article.no_11 ul.post_box.img_box li a { position:relative; height:350px; }
+.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:5%; bottom:5%; padding:5%; width:90%; height:auto; background-color:rgba(255,255,255,0.7); font-size:13px; font-weight:bold; color:#888; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
+.recent article.no_11 ul.post_box.img_box li:hover span.title { background-color:rgba(255,255,255,0.5); }
 
 
