@@ -1,6 +1,26 @@
+---
+layout: default
+---
 
-<div id="right">
-    <section id="two" class="category_wrap">
+<div class="main innerwrap">
+    
+  {% include banner.html %}
+
+  <section class="recent innerwrap">
+  
+    <article class="category_wrap">
+      <h1>소중한 오늘하루<br>새로운 순간마다</h1>
+      <ul class="tag_box">
+        <li><a href="{{ '/category/Diary' | prepend: site.baseurl }}">diary</a></li>
+        <li><a href="{{ '/category/Food' | prepend: site.baseurl }}">food</a></li>
+        <li><a href="{{ '/category/Date' | prepend: site.baseurl }}">date</a></li>
+        <li><a href="{{ '/category/Play' | prepend: site.baseurl }}">play</a></li>
+      </ul>
+    </article>
+
+  </section>
+
+  <section id="two" class="category_wrap">
       <h2>{{ page.title }}</h2>
       <div class="post_row">
         {% for post in site.categories[page.title] %}
@@ -20,5 +40,7 @@
         {% endfor %}          
       </div>
     </section>
-</div>      
+  
+</div>
+
 
