@@ -39,7 +39,7 @@
 .main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 
 .main .logo_wrap { margin:40px auto 0; background:url(../../images/line_bg.gif) repeat-x center center; }
-.main .logo_wrap > div { display:table; margin:0 auto; padding:0 15px; width:auto; height:auto; background-color:#e5e5e5; }
+.main .logo_wrap > div { display:table; margin:0 auto; padding:0 30px; width:auto; height:auto; background-color:#e5e5e5; }
 .main .logo_wrap > div img { width:130px; height:auto; }
 .main .logo_wrap > div a { font-size:20px; font-weight:bold; letter-spacing:10px; color:#888; }
 
@@ -71,7 +71,7 @@
 .recent article.no_11 ul.post_box.img_box { margin-top:40px; }
 .recent article.no_11 ul.post_box li { float:left; padding:1%; width:33.3333%; height:auto; }
 .recent article.no_11 ul.post_box.img_box li a { position:relative; height:340px; }
-.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:3%; bottom:3%; padding:5%; width:94%; height:auto; background-color:rgba(255,255,255,0.8); font-size:13px; font-weight:bold; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; border-radius:3px; }
+.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:3%; bottom:3%; padding:4%; width:94%; height:auto; background-color:rgba(255,255,255,0.8); font-size:13px; font-weight:bold; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; border-radius:3px; }
 .recent article.no_11 ul.post_box.img_box li:hover span.title { opacity:0.5; }
 .recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
 
