@@ -130,6 +130,19 @@ layout: default
 		</article>
 
 	</section>
+
+	<section class="recent innerwrap">
+	
+		<article class="no_11">
+			<h2><a href="/category/Photo/">photograph</a></h2>
+			<ul class="post_box img_box">
+				{% for post in site.categories.Photo limit:8 %}
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</article>		
+
+	</section>
 		
 
 
