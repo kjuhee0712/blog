@@ -3,29 +3,8 @@ layout: default
 ---
 
 <div class="main innerwrap">
-	
-
-	<div class="banner_wrap">
-		<span class="overay left"></span>
-		<div class="main_banner">
-			{% for post in site.categories.MainPost limit:20 %}
-		 	<div>
-		 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
-		 		<img src="{{ post.image-sm }}" alt="post image" />
-		 		<dl>
-			  	   	<dt class="title" itemprop="name">{{ post.title }}</dt>
-					<dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
-					<dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
-		 		</dl>
-			</a>	
-			</div>
-			{% endfor %}
-		</div>
-		<span class="overay right"></span>
-	</div>
-	
-	<div class="logo_wrap innerwrap"><div><img src="{{ site.baseurl }}/images/logo_s.png" alt="" /></div></div>
-
+		
+	{% include banner.html %}
 
 	<section class="recent innerwrap">
 	
@@ -91,7 +70,7 @@ layout: default
 	</section>
 
 	<section class="recent innerwrap">
-	{{ '/category/Date' | prepend: site.baseurl }}
+
 		<article class="no_07">
 			<h1>배우고 공부하고<br>새로운 기억마다</h1>
 			<ul class="tag_box">
