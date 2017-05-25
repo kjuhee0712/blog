@@ -39,7 +39,6 @@
 .main .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 
 .main .logo_wrap { margin:40px auto 0; background:url(../../images/line_bg.gif) repeat-x center center; }
-.main .recent .logo_wrap { margin:0 auto 40px; }
 .main .logo_wrap > div { display:table; margin:0 auto; padding:0 15px; width:auto; height:auto; background-color:#e5e5e5; }
 .main .logo_wrap > div img { width:130px; height:auto; }
 .main .logo_wrap > div a { font-size:20px; font-weight:bold; letter-spacing:10px; color:#888; }
@@ -53,7 +52,7 @@
 .recent article ul.tag_box li { display:inline-block; float:left; width:50%; font-size:13px; color:#888; text-align:center; letter-spacing:2px; }
 .recent article ul.tag_box li:before { margin-right:2px; font-size:13px; color:#888; content:'#'; }
 .recent article ul.post_box { margin-top:25px; width:100%; height:auto; }
-.recent article ul.post_box.img_box { margin-top:20px; padding-bottom:0; }
+.recent article ul.post_box.img_box { display:inline-block; margin-top:20px; padding-bottom:0; }
 .recent article ul.post_box li { display:inline-block; padding:7px 0; width:100%; height:auto; list-style:disc outside url('../../images/list_dot.gif'); color:#888; font-size:13px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
 .recent article ul.post_box.img_box li { padding:0; }
 .recent article ul.post_box.img_box li a { position:relative; display:block; width:100%; height:255px; font-size:0; background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover; text-align: center; }
@@ -68,10 +67,11 @@
 .recent article.no_06 ul.post_box li { float:left; padding-left:2%; padding-right:2%; width:33.3333%; border-right:1px dashed #e5e5e5; }
 .recent article.no_06 ul.post_box li:last { border-right:0; }
 
-.recent article.no_11 { margin-top:-1%; padding:0; width:100%; background:transparent; }
+.recent article.no_11 { padding:0; width:100%; background:transparent; }
+.recent article.no_11 ul.post_box.img_box { margin-top:40px; }
 .recent article.no_11 ul.post_box li { float:left; padding:1%; width:33.3333%; height:auto; }
 .recent article.no_11 ul.post_box.img_box li a { position:relative; height:340px; }
-.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:5%; bottom:5%; padding:3%; width:90%; height:auto; background-color:rgba(255,255,255,0.8); font-size:13px; font-weight:bold; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; border-radius:3px; }
+.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:5%; bottom:5%; padding:2%; width:90%; height:auto; background-color:rgba(255,255,255,0.8); font-size:13px; font-weight:bold; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; border-radius:3px; }
 .recent article.no_11 ul.post_box.img_box li:hover span.title { opacity:0.5; }
 .recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
 
