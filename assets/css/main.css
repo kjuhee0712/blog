@@ -71,7 +71,7 @@
 .recent article.no_11 ul.post_box.img_box { margin-top:40px; }
 .recent article.no_11 ul.post_box li { float:left; padding:1%; width:33.3333%; height:auto; }
 .recent article.no_11 ul.post_box.img_box li a { position:relative; height:340px; }
-.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:5%; bottom:5%; padding:2%; width:90%; height:auto; background-color:rgba(255,255,255,0.8); font-size:13px; font-weight:bold; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; border-radius:3px; }
+.recent article.no_11 ul.post_box.img_box li span.title { position:absolute; left:3%; bottom:3%; padding:7%; width:90%; height:auto; background-color:rgba(255,255,255,0.8); font-size:13px; font-weight:bold; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; border-radius:3px; }
 .recent article.no_11 ul.post_box.img_box li:hover span.title { opacity:0.5; }
 .recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
 
