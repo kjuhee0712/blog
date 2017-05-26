@@ -14,20 +14,17 @@ layout: default
     
       <ul class="post_box img_box">
         {% for post in site.categories[page.title] %}
-        <li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">
-            <dl>
-              <dt class="title" itemprop="name">{{ post.title }}</dt>
-              <dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
-              <dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
-              <dd>
-                <ul class="tag_box">
-                  {% for categories in post.categories %}
-                    <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
-                  {% endfor %}
-                </ul>
-              </dd>
-            </dl>
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">
+              <span class="title" itemprop="name">{{ post.title }}</span>
+              <span class="excerpt" itemprop="description">{{ post.description }}</span> 
+              <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</span>           
             </a>
+            <ul class="tag_box">
+                {% for categories in post.categories %}
+                  <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+                {% endfor %}
+            </ul>
         </li>    
         {% endfor %} 
       </ul>
