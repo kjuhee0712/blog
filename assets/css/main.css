@@ -41,7 +41,7 @@
 .logo_wrap { margin:40px auto 0; background:url(../../images/line_bg.gif) repeat-x center center; }
 .logo_wrap > div { display:table; margin:0 auto; padding:0 30px; width:auto; height:auto; background-color:#e5e5e5; }
 .logo_wrap > div img { width:130px; height:auto; }
-.logo_wrap > div a { font-size:20px; font-weight:bold; letter-spacing:10px; color:#888; }
+.logo_wrap > div a, .logo_wrap > div span { font-size:17px; letter-spacing:10px; color:#888; }
 
 .recent { margin-top:40px; height:340px; }
 .recent article { float:left; padding:2%; width:25%; height:100%; background-color:rgba(255,255,255,0.9); border-left:1px solid #e5e5e5; }
@@ -75,7 +75,8 @@
 .recent article.no_11 ul.post_box.img_box li:hover span.title { opacity:0.5; }
 .recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
 
-.recent article.category_wrap 
+.recent article.category_wrap { width:100%; }
+.recent article.category_wrap .logo_wrap { margin-top:0; }
 
 
 

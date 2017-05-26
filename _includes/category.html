@@ -10,9 +10,9 @@ layout: default
   
     <article class="category_wrap">
 
-      <div class="logo_wrap innerwrap"><div>{{ page.title }}</div></div>
+      <div class="logo_wrap innerwrap"><div><span>{{ page.title }}</span></div></div>
     
-      <ul class="post_box">
+      <ul class="post_box img_box">
         {% for post in site.categories[page.title] %}
         <li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
             <img src="{{ post.image-sm }}" alt="post image" />
