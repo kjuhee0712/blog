@@ -25,7 +25,7 @@ layout: default
 			<h2><a href="{{ '/category/Memory' | prepend: site.baseurl }}">memory</a></h2>
 			<ul class="post_box">
 				{% for post in site.categories.Memory limit:7 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -34,7 +34,7 @@ layout: default
 			<h2><a href="{{ '/category/Moment' | prepend: site.baseurl }}">moment</a></h2>
 			<ul class="post_box img_box">
 				{% for post in site.categories.Moment limit:1 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -43,7 +43,7 @@ layout: default
 			<h2><a href="{{ '/category/Review' | prepend: site.baseurl }}">review</a></h2>
 			<ul class="post_box">
 				{% for post in site.categories.Review limit:7 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -56,7 +56,7 @@ layout: default
 			<h2><a href="{{ '/category/Family' | prepend: site.baseurl }}">family</a></h2>
 			<ul class="post_box img_box">
 				{% for post in site.categories.Family limit:1 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -65,7 +65,7 @@ layout: default
 			<h2><a href="{{ '/category/Cheese' | prepend: site.baseurl }}">cheese</a></h2>
 			<ul class="post_box img_box">
 				{% for post in site.categories.Cheese limit:3 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>		
@@ -88,7 +88,7 @@ layout: default
 			<h2><a href="{{ '/category/Designer' | prepend: site.baseurl }}">designer</a></h2>
 			<ul class="post_box">
 				{% for post in site.categories.Designer limit:7 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -97,7 +97,7 @@ layout: default
 			<h2><a href="{{ '/category/Publisher' | prepend: site.baseurl }}">publisher</a></h2>
 			<ul class="post_box">
 				{% for post in site.categories.Publisher limit:7 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -106,7 +106,7 @@ layout: default
 			<h2><a href="{{ '/category/Handicraft' | prepend: site.baseurl }}">handicrafts</a></h2>
 			<ul class="post_box">
 				{% for post in site.categories.Handicraft limit:7 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">{{ post.title }}</a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url">{{ post.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</article>
@@ -120,7 +120,7 @@ layout: default
 		<article class="no_11">
 			<ul class="post_box img_box">
 				{% for post in site.categories.Photo limit:6 %}
-			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;"><span class="title">{{ post.title }}</span></a></li>
+			 	<li><a href="{{ post.url | prepend: site.baseurl }}" class="thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;"><span class="title">{{ post.title }}</span></a></li>
 				{% endfor %}
 			</ul>
 		</article>		
