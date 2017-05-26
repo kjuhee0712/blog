@@ -14,8 +14,7 @@ layout: default
     
       <ul class="post_box img_box">
         {% for post in site.categories[page.title] %}
-        <li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
-            <img src="{{ post.image-sm }}" alt="post image" />
+        <li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url" style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;">
             <dl>
               <dt class="title" itemprop="name">{{ post.title }}</dt>
               <dd class="excerpt" itemprop="description">{{ post.description }}</dd> 

@@ -75,8 +75,9 @@
 .recent article.no_11 ul.post_box.img_box li:hover span.title { opacity:0.5; }
 .recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
 
-.recent article.category_wrap { width:100%; }
+.recent article.category_wrap { width:100%; background-color:transparent; }
 .recent article.category_wrap .logo_wrap { margin-top:0; }
+.recent article.category_wrap ul.post_box li { width:25%; }
 
 
 
