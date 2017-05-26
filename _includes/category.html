@@ -21,7 +21,7 @@ layout: default
               <dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
               <dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
               <dd>
-                <ul class="preview__category">
+                <ul class="tag_box">
                   {% for categories in post.categories %}
                     <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
                   {% endfor %}
