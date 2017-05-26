@@ -9,37 +9,31 @@ layout: default
   <section class="recent innerwrap">
   
     <article class="category_wrap">
-      <h1>소중한 오늘하루<br>새로운 순간마다</h1>
-      <ul class="tag_box">
-        <li><a href="{{ '/category/Diary' | prepend: site.baseurl }}">diary</a></li>
-        <li><a href="{{ '/category/Food' | prepend: site.baseurl }}">food</a></li>
-        <li><a href="{{ '/category/Date' | prepend: site.baseurl }}">date</a></li>
-        <li><a href="{{ '/category/Play' | prepend: site.baseurl }}">play</a></li>
+
+      <div class="logo_wrap innerwrap"><div>{{ page.title }}</div></div>
+    
+      <ul class="post_box">
+        {% for post in site.categories[page.title] %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
+            <img src="{{ post.image-sm }}" alt="post image" />
+            <dl>
+              <dt class="title" itemprop="name">{{ post.title }}</dt>
+              <dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
+              <dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</dd>
+              <dd>
+                <ul class="preview__category">
+                  {% for categories in post.categories %}
+                    <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+                  {% endfor %}
+                </ul>
+              </dd>
+            </dl>
+        {% endfor %} 
       </ul>
     </article>
 
   </section>
 
-  <section id="two" class="category_wrap">
-      <h2>{{ page.title }}</h2>
-      <div class="post_row">
-        {% for post in site.categories[page.title] %}
-        <article class="6u 12u$(xsmall) preview" itemprop="blogPost">
-          <a href="{{ post.url | prepend: site.baseurl }}"" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="" /></a>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="txt" itemprop="url">          
-            <h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
-            <p class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p>
-            <!-- <p class="preview__excerpt" itemprop="description">{{ post.description }}</p> -->
-          </a>
-          <ul class="preview__category">
-            {% for categories in post.categories %}
-              <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
-            {% endfor %}
-          </ul>
-        </article>
-        {% endfor %}          
-      </div>
-    </section>
   
 </div>
 
