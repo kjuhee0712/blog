@@ -79,6 +79,7 @@
 .recent article.category_wrap .logo_wrap { margin-top:0; }
 .recent article.category_wrap ul.post_box li { width:25%; }
 .recent article.category_wrap ul.post_box li a { width:100%; }
+.recent article.category_wrap ul.post_box li span.title > br { display:none; }
 
 
 
