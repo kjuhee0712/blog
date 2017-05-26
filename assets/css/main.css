@@ -78,8 +78,9 @@
 .recent article.category_wrap { width:100%; background-color:transparent; }
 .recent article.category_wrap .logo_wrap { margin-top:0; }
 .recent article.category_wrap ul.post_box li { width:25%; }
-.recent article.category_wrap ul.post_box li a { width:100%; }
-.recent article.category_wrap ul.post_box li span.title > br { display:none; }
+.recent article.category_wrap ul.post_box li a { width:100%; height:auto; }
+.recent article.category_wrap ul.post_box li a span.thumb { position:relative; display:block; width:100%; height:255px; font-size:0; text-align:center;}
+.recent article.category_wrap ul.post_box li a span.title > br { display:none; }
 
 
 
