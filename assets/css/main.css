@@ -75,9 +75,7 @@
 .recent article.no_11 ul.post_box.img_box li:hover span.title { opacity:0.5; }
 .recent article.no_11 ul.post_box.img_box li span.title > br { display:none; }
 
-.recent article.category_wrap { padding:0; width:100%; background:transparent; }
-.recent article.category_wrap ul.post_box.img_box { margin-top:40px; }
-.recent article.category_wrap ul.post_box li { float:left; background-color:#fff; }
+.recent article.category_wrap 
 
 
 
