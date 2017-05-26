@@ -16,7 +16,7 @@ layout: default
         {% for post in site.categories[page.title] %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <span style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;" class="thumb"></span>
+              <span style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;" class="thumb">포스트이미지</span>
               <span class="title" itemprop="name">{{ post.title }}</span>
               <span class="excerpt" itemprop="description">{{ post.description }}</span> 
               <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</span>           
