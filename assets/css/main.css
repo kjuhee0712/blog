@@ -78,8 +78,7 @@
 
 .recent article.category_wrap { padding:0; width:100%; background-color:transparent; }
 .recent article.category_wrap .logo_wrap { margin-top:0; }
-.recent article.category_wrap ul.post_box.img_box { margin-top:40px; }
-.recent article.category_wrap ul.post_box.img_box li { padding:2%; }
+.recent article.category_wrap ul.post_box.img_box li { padding:2%; margin-top:20px; }
 .recent article.category_wrap ul.post_box.img_box li a { position:relative; display:inline-block; width:100%; height:auto; font-size:13px; text-align:left; }
 .recent article.category_wrap ul.post_box.img_box li a span { display:inline-block; float:left; width:100%; height:auto; white-space:normal; }
 .recent article.category_wrap ul.post_box.img_box li a span.thumb { position:relative; display:block; height:255px; font-size:0; text-align:center;}
