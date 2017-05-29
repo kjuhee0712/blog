@@ -39,7 +39,7 @@
 .main_banner .slick-slide dl dd.date { display:inline-block; margin-top:30px; width:100%; height:auto; font-size:11px; color:#fff; text-align:center; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 
 .logo_wrap { margin:40px auto 0; background:url(../../images/line_bg.gif) repeat-x center center; }
-.logo_wrap > div { display:table; margin:0 auto; padding:0 30px; width:auto; height:auto; background-color:#e5e5e5; }
+.logo_wrap > div { display:table; margin:0 auto; padding:0 25px 0 30px; width:auto; height:auto; background-color:#e5e5e5; }
 .logo_wrap > div img { width:130px; height:auto; }
 .logo_wrap > div a, .logo_wrap > div span { font-size:16px; letter-spacing:10px; color:#888; }
 
