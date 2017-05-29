@@ -84,8 +84,8 @@
 .recent article.category_wrap ul.post_box.img_box li a span { display:inline-block; float:left; width:100%; height:auto; white-space:normal; }
 .recent article.category_wrap ul.post_box.img_box li a span.thumb { position:relative; display:block; height:255px; font-size:0; text-align:center;}
 .recent article.category_wrap ul.post_box.img_box li a span.title > br { display:none; }
-.recent article.category_wrap ul.tag_box { display:inline-block; float:none; clear:both; margin:0; width:100%; height:auto; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
-.recent article.category_wrap ul.tag_box li { display:inline; width:auto; height:auto; border:0; }
+.recent article.category_wrap ul.post_box.img_box li ul.tag_box { display:inline-block; float:none; clear:both; margin:0; width:100%; height:auto; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.recent article.category_wrap ul.post_box.img_box li ul.tag_box li { display:inline; padding:0; width:auto; height:auto; border:0; }
 
 
 
