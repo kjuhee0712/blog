@@ -18,7 +18,7 @@
               <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</span>           
             </a>
             <ul class="tag_box">
-                {% for categories in post.categories %}
+                {% for categories in post.categories limit:5 %}
                   <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
                 {% endfor %}
             </ul>

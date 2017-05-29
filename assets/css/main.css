@@ -56,8 +56,7 @@
 .recent article ul.post_box.img_box { display:inline-block; margin-top:20px; padding-bottom:0; }
 .recent article ul.post_box li { display:inline-block; padding:7px 0; width:100%; height:auto; list-style:disc outside url('../../images/list_dot.gif'); color:#888; font-size:13px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
 .recent article ul.post_box.img_box li { padding:0; }
-.recent article ul.post_box.img_box li a,
-.recent article.category_wrap ul.post_box.img_box li a { position:relative; display:block; width:100%; height:255px; font-size:0; text-align: center; }
+.recent article ul.post_box.img_box li a { position:relative; display:block; width:100%; height:255px; font-size:0; text-align: center; }
 .recent article ul.post_box.img_box li .thumb:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0;	width: 100%; }
 .recent article ul.post_box.img_box li .thumb:after { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; border: solid 3px rgba(255, 255, 255, 0.5); color: #fff; content: 'View'; display: inline-block; font-size: 0.8em;	font-weight: 400; left: 50%; line-height: 2.25em; margin: -1.25em 0 0 -3em; opacity: 0; padding: 0 1.5em; position: absolute; text-align: center; text-decoration: none; top: 50%; white-space: nowrap; font-size:13px; letter-spacing:2px; }
 .recent article ul.post_box.img_box li:hover a { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; }
@@ -80,9 +79,12 @@
 .recent article.category_wrap { padding:0; width:100%; background-color:transparent; }
 .recent article.category_wrap .logo_wrap { margin-top:0; }
 .recent article.category_wrap ul.post_box.img_box { margin-top:40px; }
+.recent article.category_wrap ul.post_box.img_box li { padding:2%; }
+.recent article.category_wrap ul.post_box.img_box li a { position:relative; display:block; width:100%; height:auto; font-size:13px; text-align: center; }
 .recent article.category_wrap ul.post_box.img_box li a span { display:inline-block; float:left; width:100%; height:auto; white-space:normal; }
 .recent article.category_wrap ul.post_box.img_box li a span.thumb { position:relative; display:block; height:255px; font-size:0; text-align:center;}
 .recent article.category_wrap ul.post_box.img_box li a span.title > br { display:none; }
+.recent article.category_wrap ul.tag_box { display:inline-block; margin:0; width:100%; height:auto; }
 
 
 
