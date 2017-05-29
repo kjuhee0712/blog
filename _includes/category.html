@@ -20,7 +20,7 @@
             </a>
             <ul class="tag_box">
                 {% for categories in post.categories limit:5 %}
-                  <li><a href="{{ /category/{{ categories }} | prepend: site.baseurl }}">{{ categories }}</a> </li>      
+                  <li><a href="{{ '/category/{{ categories }}' | prepend: site.baseurl }}">{{ categories }}</a> </li>      
                 {% endfor %}
             </ul>
         </li>    
