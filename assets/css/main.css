@@ -79,7 +79,7 @@
 .recent article.category_wrap .logo_wrap { margin-top:0; }
 .recent article.category_wrap ul.post_box.img_box li { float:left; padding:15px; margin-top:20px; width:25%; height:100%; background-color:rgba(255,255,255,0.9); border-left:2.5px solid #e5e5e5; border-right:2.5px solid #e5e5e5; }
 .recent article.category_wrap ul.post_box.img_box li a { position:relative; display:inline-block; width:100%; height:auto; font-size:13px; text-align:left; }
-.recent article.category_wrap ul.post_box.img_box li a span { display:inline-block; float:left; margin:5px 0; width:100%; height:auto; white-space:normal; }
+.recent article.category_wrap ul.post_box.img_box li a span { display:inline-block; float:left; margin-top:10px; width:100%; height:auto; white-space:normal; }
 .recent article.category_wrap ul.post_box.img_box li a span.thumb { position:relative; display:block; margin:0; height:255px; font-size:0; text-align:center;}
 .recent article.category_wrap ul.post_box.img_box li a span.title { display:block; width:100%; height:auto; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
 .recent article.category_wrap ul.post_box.img_box li a span.title > br { display:none; }
