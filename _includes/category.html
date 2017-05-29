@@ -35,5 +35,5 @@
 
 
 <script>
-  $('.recent article ul.post_box.img_box li .thumb:after').css( { 'content': '{{ post.date | date: "%Y %-m %-d" }}';  });
+  $('.recent article ul.post_box.img_box li .thumb:after').css( { 'content': {{ post.date | date: "%Y %-m %-d" }} });
 </script>
