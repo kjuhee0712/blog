@@ -84,7 +84,7 @@
 .recent article.category_wrap ul.post_box.img_box li a span.title > br { display:none; }
 .recent article.category_wrap ul.post_box.img_box li ul.tag_box { display:inline-block; float:left; clear:both; margin:5px 0 0 0; width:100%; height:auto; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
 .recent article.category_wrap ul.post_box.img_box li ul.tag_box li { display:inline; margin:2px 5px 2px 0; padding:3px; width:auto; height:auto; border:0; background-color:#f5f5f5; border-radius:3px; }
-.recent article.category_wrap ul.post_box.img_box li ul.tag_box li a { font-size:11px; }
+.recent article.category_wrap ul.post_box.img_box li ul.tag_box li a:before, .recent article.category_wrap ul.post_box.img_box li ul.tag_box li a { font-size:11px; }
 
 
 
