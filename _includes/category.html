@@ -15,8 +15,9 @@
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
               <span style="background:url('{{ post.image-sm }}') no-repeat center center; background-size:cover;" class="thumb">포스트이미지</span>
+              <span class="after">{{ post.date | date: "%Y %-m %-d" }}</span>
               <span class="title" itemprop="name">{{ post.title }}</span>
-              <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</span>           
+              <!-- <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y %-m %-d" }}</span>     -->       
             </a>
             <ul class="tag_box">
                 {% for categories in post.categories limit:5 %}
@@ -33,6 +34,6 @@
   
 </div>
 <style>
-  .recent article.category_wrap ul.post_box.img_box li a span.thumb:after { content:'{{ post.date | date: "%Y %-m %-d" }}'; }
+  .recent article.category_wrap ul.post_box.img_box li a span.thumb .after { content:'{{ post.date | date: "%Y %-m %-d" }}'; }
 </style>
 
