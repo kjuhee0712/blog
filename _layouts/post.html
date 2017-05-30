@@ -44,11 +44,11 @@ layout: default
 
   <div class="post_footer innerwrap">
       {% if page.previous.url %}
-      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span>이전글<span>{{ page.previous.title }}</span></a>   
+      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span>이전글<span class="title">{{ page.previous.title }}</span></a>   
       {% endif %}   
 
       {% if page.next.url %}
-      <a  href="{{page.next.url | prepend: site.baseurl }}" class="next" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span>다음글<span>{{ page.next.title }}</span></a>  
+      <a  href="{{page.next.url | prepend: site.baseurl }}" class="next" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span>다음글<span class="title">{{ page.next.title }}</span></a>  
       {% endif %}
   </div>
 
