@@ -56,10 +56,10 @@ layout: default
   <section class="recent innerwrap">
     <article class="category_wrap">
 
-      <div class="logo_wrap innerwrap"><div><span>{{ page.title }}</span></div></div>
+      <div class="logo_wrap innerwrap"><div><span>Recent Post</span></div></div>
     
       <ul class="post_box img_box">
-        {% for post in paginator.posts limit:5 %}
+        {% for post in site.posts limit:5 %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
               <span style="background:url('{{ post.image-s }}') no-repeat center center; background-size:cover;" class="thumb">포스트이미지</span>
@@ -76,3 +76,4 @@ layout: default
       </ul>
     </article>  
   </section>
+
