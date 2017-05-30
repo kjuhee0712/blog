@@ -101,7 +101,7 @@
 .post_head .center dl { position:absolute; top:120px; width:100%; height:auto; color:#fff; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); z-index:1; }
 .post_head .center dl dt > br { display:none; }
 .post_head .center dl dt { margin-bottom:15px; font-size:24px; font-weight:400; }
-.post_head .center dl dd.date { margin-top:20px; }
+.post_head .center dl dd.date { margin-top:20px; letter-spacing:1px; }
 
 section.post { background-color:#fff; padding:7%; }
 article {}
