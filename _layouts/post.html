@@ -4,8 +4,7 @@ layout: default
 
 
     <div class="post_head">
-      {% if page.previous.url %}
-        
+      {% if page.previous.url %}        
         <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span>이전글</a>
       {% endif %}
 
