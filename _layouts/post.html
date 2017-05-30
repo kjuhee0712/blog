@@ -2,7 +2,7 @@
 layout: default
 ---
 
-  <section class="post">
+
     <div class="post_head">
       {% if page.previous.url %}
         <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">이전글</a>
@@ -21,6 +21,7 @@ layout: default
       {% endif %}
     </div>
 
+  <section class="post innerwrap">
     <article class="post_wrap">
       {{ content }}
     </article>
@@ -31,7 +32,7 @@ layout: default
         {% endfor %}
     </ul> 
 
-    <ul>
+    <ul class="link_box">
       {% if page.link %}
         {% for link in page.link %}
           <li>{{ link }}</li>
@@ -39,17 +40,14 @@ layout: default
       {% endif %}
     </ul>    
 
-    <div class="post_footer previous">
-
+    <div class="post_footer">
       {% if page.previous.url %}
-      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">{{ page.previous.title }}</a>   
-      {% endif %}
-   
+      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">{{ page.previous.title }}</a>   
+      {% endif %}   
 
       {% if page.next.url %}
-      <a  href="{{page.next.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">{{ page.next.title }}</a>  
+      <a  href="{{page.next.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">{{ page.next.title }}</a>  
       {% endif %}
-
     </div>
   </section>
 
