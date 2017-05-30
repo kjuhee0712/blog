@@ -94,8 +94,8 @@
 .post_head .next { right:0; }
 .post_head .overay { position:absolute; top:0; display:block; width:100%; height:100%; z-index:0; background-color:rgba(0,0,0,0.4); }
 .post_head .txt { z-index:1; }
-.post_head .preview:before { display:block; margin:0 auto 20px; width:auto; height:auto; content: url(../../images/icon_left_white.png); z-index:1; }
-.post_head .next:before { display:block; margin:0 auto 20px; width:auto; height:auto; content: url(../../images/icon_right_white.png); z-index:1; }
+.post_head .preview:before { display:block; margin:0 auto 10px; width:auto; height:auto; content: url(../../images/icon_left_white.png); z-index:1; }
+.post_head .next:before { display:block; margin:0 auto 10px; width:auto; height:auto; content: url(../../images/icon_right_white.png); z-index:1; }
 .post_head .center { position:relative; height:100%; text-align:center; }
 .post_head .center dl { color:#fff; text-shadow: 1px 1px 6px rgba(0,0,0,0.8); }
 
