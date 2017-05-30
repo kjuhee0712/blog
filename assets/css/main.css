@@ -17,9 +17,9 @@
 /* content */
 #content { display:inline-block; padding-left:260px; width:100%; min-height:100%; height:auto; }
 
-/* main */
-.main.innerwrap { display:inline-block; padding-bottom:100px; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
-.post.innerwrap { display:inline-block; padding-bottom:100px; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
+/* content > wrapper */
+.main { display:inline-block; padding-bottom:100px; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
+.post { display:inline-block; padding-bottom:100px; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
 
 /* main_banner */
 .banner_wrap { position:relative; margin-top:50px; width:100%; height:auto; }
@@ -88,6 +88,7 @@
 .recent article.category_wrap ul.post_box.img_box li ul.tag_box li { display:inline; margin:4px 4px 0 0; padding:0 5px 3px; width:initial; height:initial; border:0; border-radius:3px; list-style:none; text-overflow:clip; font-size:11px; border:1px solid #ddd; }
 .recent article.category_wrap ul.tag_box li:before { margin-right:0; font-size:11px; }
 .recent article.category_wrap ul.post_box.img_box li ul.tag_box li a { font-size:10px; }
+.recent article.category_wrap ul.post_box.img_box li ul.tag_box li:hover a:before { color:#3bb9c4; }
 
 
 /* Post Layout */
