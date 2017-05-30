@@ -96,7 +96,7 @@
 .post_head .preview:before { display:block; margin:0 auto 20px; width:auto; height:auto; content: url(../../images/icon_left_white.png); }
 .post_head .next:before { display:block; margin:0 auto 20px; width:auto; height:auto; content: url(../../images/icon_right_white.png); }
 .post_head .center { position:relative; height:100%; text-align:center; -webkit-filter: brightness(80%); }
-.post_head .center:hover { -webkit-filter:brightness(80%); }
+.post_head .center:hover { -webkit-filter:brightness(100%); }
 
 article {}
 .row_100 { width:100%; }
