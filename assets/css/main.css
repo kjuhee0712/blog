@@ -19,6 +19,7 @@
 
 /* main */
 .main.innerwrap { display:inline-block; padding-bottom:100px; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
+.post.innerwrap { display:inline-block; padding-bottom:100px; width:100%; min-height:100%; height:auto; background-color:#e5e5e5; }
 
 /* main_banner */
 .banner_wrap { position:relative; margin-top:50px; width:100%; height:auto; }

@@ -1,13 +1,36 @@
 ---
 layout: default
 ---
-<div id="right">
 
-  <section class="section-padding post" itemprop="articleBody">
-    <h2>{{ page.title }}</h2>
-    <div class="post_wrap">
-    {{ content }}
+  <section class="post">
+
+    <div class="post_head">
+      <img src="{{ page.image-t }}" alt="타이틀 배경 이미지">
+      <dl>
+        <dt class="title">{{ page.title }}</dt>
+        <dd class="excerpt" class="date">{{ page.description }}</dd>
+        <dd class="date">{{ page.date | date: "%Y %-m %-d" }}</dd>
+      </dl>
     </div>
+
+    <article class="post_wrap">
+      {{ content }}
+    </article>
+  
+    <ul class="tag_box">
+        {% for categories in page.categories %}
+          <li><a href="{{ site.baseurl }}/category/{{ categories }}">{{ categories }}</a> </li>      
+        {% endfor %}
+    </ul> 
+
+    <ul>
+      {% if page.show_footer %}
+        {% for link in page.link %}
+          <li>{{ page.link }}</li>
+        {% endfor %}
+      {% endif %}
+    </ul>    
+
   </section>
 
   <div class="post_row prenext">
