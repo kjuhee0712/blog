@@ -89,8 +89,11 @@
 
 /* Post Layout */
 .post_head { width:100%; height:364px; }
-.post_head .preview, .post_head .next { width:calc( (100% - 1020px)/2 ); height:100%; }
-.post_head .center { height:100%; }
+.post_head .preview, .post_head .next { float:left; width:calc( (100% - 1020px)/2 ); height:100%; text-align:center; color:#fff; }
+.post_head .preview .overay, .post_head .next .overay { position:absolute; top:0; display:block; width:100%; height:100%; z-index:10; background-color:rgba(255,255,255,0.5); }
+.post_head .preview:before { display:block; margin:0 auto 20px; width:auto; height:auto; content: url(../../images/icon_left.png); }
+.post_head .preview:before { display:block; margin:0 auto 20px; width:auto; height:auto; content: url(../../images/icon_right.png); }
+.post_head .center { float:left; height:100%; }
 article {}
 .row_100 { width:100%; }
 .row_50 { width:50%; }
