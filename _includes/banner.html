@@ -4,7 +4,7 @@
 			{% for post in site.tags.MainPost limit:20 %}
 		 	<div>
 		 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
-		 		<img src="{{ post.image-sm }}" alt="post image" />
+		 		<img src="{{ post.image-s }}" alt="post image" />
 		 		<dl>
 			  	   	<dt class="title" itemprop="name">{{ post.title }}</dt>
 					<dd class="excerpt" itemprop="description">{{ post.description }}</dd> 

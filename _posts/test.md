@@ -25,7 +25,7 @@ categories:
  - ETC
 description: test,test,test 
 image: https://kjuhee0712.github.io/jhblog/images/pages/20111101_bs.jpg
-image-sm: https://kjuhee0712.github.io/jhblog/images/thumbs/20111101_bs.jpg
+image-s: https://kjuhee0712.github.io/jhblog/images/thumbs/20111101_bs.jpg
 link : http://naver.com
 ---
 
