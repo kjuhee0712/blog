@@ -85,7 +85,7 @@
 .recent article.category_wrap ul.post_box.img_box li a span.title { display:block; margin-top:15px; width:100%; height:auto; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
 .recent article.category_wrap ul.post_box.img_box li a span.title > br { display:none; }
 .recent article.category_wrap ul.post_box.img_box li ul.tag_box { display:inline-block; float:left; clear:both; margin:5px 0 0 0; width:100%; height:52px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
-.recent article.category_wrap ul.post_box.img_box li ul.tag_box li { display:inline; margin:4px 4px 0 0; padding:0 5px 3px; width:initial; height:initial; border:0; background-color:#f5f5f5; border-radius:3px; list-style:none; text-overflow:clip; font-size:11px; border:1px solid #ddd; }
+.recent article.category_wrap ul.post_box.img_box li ul.tag_box li { display:inline; margin:4px 4px 0 0; padding:0 5px 3px; width:initial; height:initial; border:0; border-radius:3px; list-style:none; text-overflow:clip; font-size:11px; border:1px solid #ddd; }
 .recent article.category_wrap ul.tag_box li:before { margin-right:0; font-size:11px; }
 .recent article.category_wrap ul.post_box.img_box li ul.tag_box li a { font-size:10px; }
 
