@@ -8,7 +8,7 @@ layout: default
         <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">이전글</a>
       {% endif %}
 
-      <div class="center" style="background:url({{ page.image-t }}) no-repeat center center; background-size:cover;">
+      <div class="center innerwrap" style="background:url({{ page.image-t }}) no-repeat center center; background-size:cover;">
         <dl>
           <dt class="title">{{ page.title }}</dt>
           <dd class="excerpt" class="date">{{ page.description }}</dd>
@@ -17,7 +17,7 @@ layout: default
       </div>
 
       {% if page.next.url %}
-        <a  href="{{page.next.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">다음글</a>
+        <a  href="{{page.next.url | prepend: site.baseurl }}" class="next" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">다음글</a>
       {% endif %}
     </div>
 
@@ -39,8 +39,9 @@ layout: default
         {% endfor %}
       {% endif %}
     </ul>    
+  </section>
 
-    <div class="post_footer">
+  <div class="post_footer innerwrap">
       {% if page.previous.url %}
       <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">{{ page.previous.title }}</a>   
       {% endif %}   
@@ -48,8 +49,7 @@ layout: default
       {% if page.next.url %}
       <a  href="{{page.next.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">{{ page.next.title }}</a>  
       {% endif %}
-    </div>
-  </section>
+  </div>
 
   <section class="recent innerwrap">
     <article class="category_wrap">
