@@ -95,9 +95,9 @@ article {}
 .row_50 { width:50%; }
 .float_l { float:left; }
 .float_r { float:right; }
-.script { text-align:center; font-size:20px; }
-.script:before { display:block; margin:0 auto; content:'"'; }
-.script:after { display:block; margin:0 auto; content:'"'; }
+.dialog { text-align:center; font-size:20px; }
+.dialog:before { display:block; margin:0 auto; content:'"'; }
+.dialog:after { display:block; margin:0 auto; content:'"'; }
 
 
 
