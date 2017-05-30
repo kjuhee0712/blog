@@ -5,7 +5,7 @@ layout: default
   <section class="post">
     <div class="post_head">
       {% if page.previous.url %}
-        <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-s }}) no-repeat center center; background-size:cover;">이전글</a>
+        <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">이전글</a>
       {% endif %}
 
       <div class="center" style="background:url({{ page.image-t }}) no-repeat center center; background-size:cover;">
@@ -17,7 +17,7 @@ layout: default
       </div>
 
       {% if page.next.url %}
-        <a  href="{{page.next.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.next.image-s }}) no-repeat center center; background-size:cover;">다음글</a>
+        <a  href="{{page.next.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">다음글</a>
       {% endif %}
     </div>
 
@@ -42,12 +42,12 @@ layout: default
     <div class="post_footer previous">
 
       {% if page.previous.url %}
-      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.previous.image-s }}) no-repeat center center; background-size:cover;">{{ page.previous.title }}</a>   
+      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;">{{ page.previous.title }}</a>   
       {% endif %}
    
 
       {% if page.next.url %}
-      <a  href="{{page.next.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.next.image-s }}) no-repeat center center; background-size:cover;">{{ page.next.title }}</a>  
+      <a  href="{{page.next.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;">{{ page.next.title }}</a>  
       {% endif %}
 
     </div>
@@ -59,7 +59,7 @@ layout: default
       <div class="logo_wrap innerwrap"><div><span>{{ page.title }}</span></div></div>
     
       <ul class="post_box img_box">
-        {% for post in site.categories[page.title] %}
+        {% for post in paginator.posts limit:5 %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
               <span style="background:url('{{ post.image-s }}') no-repeat center center; background-size:cover;" class="thumb">포스트이미지</span>
