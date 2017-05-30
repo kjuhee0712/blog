@@ -3,14 +3,22 @@ layout: default
 ---
 
   <section class="post">
-
     <div class="post_head">
-      <img src="{{ page.image-t }}" alt="타이틀 배경 이미지">
-      <dl>
-        <dt class="title">{{ page.title }}</dt>
-        <dd class="excerpt" class="date">{{ page.description }}</dd>
-        <dd class="date">{{ page.date | date: "%Y %-m %-d" }}</dd>
-      </dl>
+      {% if page.previous.url %}
+        <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-s }}) no-repeat center center; background-size:cover;">이전글</a>
+      {% endif %}
+
+      <div class="center" style="background:url({{ page.image-t }}) no-repeat center center; background-size:cover;">
+        <dl>
+          <dt class="title">{{ page.title }}</dt>
+          <dd class="excerpt" class="date">{{ page.description }}</dd>
+          <dd class="date">{{ page.date | date: "%Y %-m %-d" }}</dd>
+        </dl>
+      </div>
+
+      {% if page.next.url %}
+        <a  href="{{page.next.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.next.image-s }}) no-repeat center center; background-size:cover;">다음글</a>
+      {% endif %}
     </div>
 
     <article class="post_wrap">
@@ -24,50 +32,47 @@ layout: default
     </ul> 
 
     <ul>
-      {% if page.show_footer %}
+      {% if page.link %}
         {% for link in page.link %}
           <li>{{ page.link }}</li>
         {% endfor %}
       {% endif %}
     </ul>    
 
+    <div class="post_footer previous">
+
+      {% if page.previous.url %}
+      <a  href="{{page.previous.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.previous.image-s }}) no-repeat center center; background-size:cover;">{{ page.previous.title }}</a>   
+      {% endif %}
+   
+
+      {% if page.next.url %}
+      <a  href="{{page.next.url | prepend: site.baseurl }}" class="post_footer preview" style="background:url({{ page.next.image-s }}) no-repeat center center; background-size:cover;">{{ page.next.title }}</a>  
+      {% endif %}
+
+    </div>
   </section>
 
-  <div class="post_row prenext">
+  <section class="recent innerwrap">
+    <article class="category_wrap">
 
-   {% if page.previous.url %}
-    <div class="prev 6u 12u$(xsmall) preview">
-        <span class="txt"><< 이전 작업</span>
-        <a  href="{{page.previous.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.previous.image-s }}" alt="" /></a>
-        <a href="{{page.previous.url | prepend: site.baseurl }}" class="txt" itemprop="url">
-          <h3 class="preview__header" itemprop="name">{{ page.previous.title }}</h3>
-          <!-- <p class="preview__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p> -->
-        </a>   
-       <!--  <ul class="preview__category">
-          {% for categories in page.previous.categories %}
-            <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
-          {% endfor %}
-        </ul>    -->  
-    </div>
-  {% endif %}
- 
-
-   {% if page.next.url %}
-    <div class="next 6u 12u$(xsmall) preview">
-        <span class="txt">다음작업 >></span>
-        <a  href="{{page.next.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.next.image-s }}" alt="" /></a>
-        <a href="{{page.next.url | prepend: site.baseurl }}" class="txt" itemprop="url">
-          <h3 class="preview__header" itemprop="name">{{ page.next.title }}</h3>
-          <!-- <p class="preview__date" itemprop="datePublished" datetime="{{ page.next.date | date_to_xmlschema }}">{{ page.next.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p> -->
-        </a>   
-        <!-- <ul class="preview__category">
-          {% for categories in page.next.categories %}
-            <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
-          {% endfor %}
-        </ul>   -->     
-    </div>
-    {% endif %}
-
-  </div>
-
-</div>
+      <div class="logo_wrap innerwrap"><div><span>{{ page.title }}</span></div></div>
+    
+      <ul class="post_box img_box">
+        {% for post in site.categories[page.title] %}
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+              <span style="background:url('{{ post.image-s }}') no-repeat center center; background-size:cover;" class="thumb">포스트이미지</span>
+              <span class="title" itemprop="name">{{ post.title }}</span>
+              <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">- {{ post.date | date: "%Y년 %-m월 %-d일" }}</span>           
+            </a>
+            <ul class="tag_box">
+                {% for categories in post.categories limit:5 %}
+                  <li><a href="{{ site.baseurl }}/category/{{ categories }}">{{ categories }}</a> </li>      
+                {% endfor %}
+            </ul>
+        </li>    
+        {% endfor %} 
+      </ul>
+    </article>  
+  </section>
