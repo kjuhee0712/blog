@@ -5,10 +5,11 @@ layout: default
 
     <div class="post_head">
       {% if page.previous.url %}        
-        <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span>이전글</span></a>
+        <a  href="{{page.previous.url | prepend: site.baseurl }}" class="preview" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span class="txt">이전글</span></a>
       {% endif %}
 
       <div class="center innerwrap" style="background:url({{ page.image-t }}) no-repeat center center; background-size:cover;">
+        <span class="overay">
         <dl>
           <dt class="title">{{ page.title }}</dt>
           <dd class="excerpt" class="date">{{ page.description }}</dd>
@@ -17,7 +18,7 @@ layout: default
       </div>
 
       {% if page.next.url %}
-        <a  href="{{page.next.url | prepend: site.baseurl }}" class="next" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span>다음글</span></a>
+        <a  href="{{page.next.url | prepend: site.baseurl }}" class="next" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span class="txt">다음글</span></a>
       {% endif %}
     </div>
 
