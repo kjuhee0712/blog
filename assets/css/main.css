@@ -124,11 +124,13 @@ article.post_wrap strong { font-weight: bold; }
 article.post_wrap img { display:block; margin:30px auto; max-width:80%; width:auto; height:auto; }
 article.post_wrap a { text-decoration:underline; }
 
-.post .tag_box { display:inline-block; float:left; clear:both; margin:5px 0 0 0; width:100%; height:52px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.post .tag_box { display:inline-block; padding:30px; width:100%; height:auto; border-top:1px dashed #ddd; border-bottom:1px dashed #ddd; }
 .post .tag_box li { display:inline; margin:4px 4px 0 0; padding:0 5px 3px; width:initial; height:initial; border:0; border-radius:3px; list-style:none; text-overflow:clip; font-size:11px; border:1px solid #ddd; }
 .recent article.category_wrap ul.tag_box li:before { margin-right:0; font-size:11px; }
 .post .tag_box li a { font-size:10px; }
 .post .tag_box li:hover a:before { color:#3bb9c4; }
+
+.post .link_box { display:inline-block; padding:30px; width:100%; height:auto; border-top:1px dashed #ddd; border-bottom:1px dashed #ddd; }
 
 .post_footer > a { position:relative; float:left; width:50%; height:182px; text-align:center; color:#fff; }
 .post_footer .overay { position:absolute; top:0; display:block; width:100%; height:100%; z-index:0; background-color:rgba(0,0,0,0.3); z-index:0; }
