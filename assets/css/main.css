@@ -114,7 +114,8 @@ article.post_wrap blockquote p { margin:15px 0 20px; font-size:inherit; text-ali
 article.post_wrap blockquote:before { width:100%; height:auto; text-align:center; content:url(../../images/blockquote_before.png); }
 article.post_wrap blockquote:after { width:100%; height:auto; text-align:center; content:url(../../images/blockquote_after.png); }
 article.post_wrap ol { list-style:inherit; list-style-type:decimal; font-size:inherit; }
-article.post_wrap ul { font-size:inherit; }
+article.post_wrap ul { font-size:inherit; font-weight:inherit; color:inherit; }
+article.post_wrap ol li, article.post_wrap ul li { font-size:inherit; font-weight:inherit; color:inherit; }
 article.post_wrap ul li:before { content:"- "; }
 article.post_wrap .highlighter-rouge { display:table; margin:30px auto; padding:15px 20px; color:#777; width:100%; height:auto; background:#EBEBEB;  font-size:inherit; border-radius:5px; }
 article.post_wrap .highlighter-rouge code { letter-spacing:0; font-size:inherit; }
