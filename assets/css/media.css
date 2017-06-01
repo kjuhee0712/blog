@@ -46,6 +46,7 @@
 	#content { padding-bottom:10%; }
 	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
+	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
 	.recent { display:block; }
 	.recent article { width:50%; }
 	.recent article h1 > span { display:inline; }
@@ -80,5 +81,9 @@
 	.recent article.no_11 ul.post_box li { margin-top:5px; width:100%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:400px; }
 }
+
+@media all and (max-width:480px){
+	
+}	
 
 
