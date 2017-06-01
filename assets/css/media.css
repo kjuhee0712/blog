@@ -46,6 +46,7 @@
 	#content { padding-bottom:10%; }
 	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
+	.main_banner .slick-slide dl dd.excerpt { display:none; }
 	.recent { display:block; }
 	.recent article { width:50%; }
 	.recent article.no_04 { float:right; }
@@ -56,6 +57,7 @@
 	.recent article.no_07, .recent article.no_08 { margin-top:20px; }
 	.recent article.no_11 ul.post_box li { width:50%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:270px; }
+	.recent article h1 > span { display:inline; }
 }
 
 
