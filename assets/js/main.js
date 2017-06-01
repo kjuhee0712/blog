@@ -55,12 +55,20 @@ $(document).ready(function(){
 	}else{
 		var bi = $('.main_banner .slick-slide a img');
 		console.log(bi)
-		var bis = bi.attr('src');
-		console.log(bis);
-		bis = bis.split('_');
-        console.log(bis);
-		$('.main_banner .slick-slide a img').attr('src',bis[0]+'_'+bis[1]+'.jpg');
-	}
+		
+
+		$.each(bi, function (index, item) { 
+
+			var bis = index.attr('src');
+			console.log(bis);
+			bis = bis.split('_');
+	        console.log(bis);
+			index.attr('src',bis[0]+'_'+bis[1]+'.jpg');	
+
+		// 두 번째 매개변수로는 콜백함수인데 콜백함수의 매개변수 중 
+		// 첫 번째 index는 배열의 인덱스 또는 객체의 키를 의미하고 
+		// 두 번째 매개 변수 item은 해당 인덱스나 키가 가진 값을 의미합니다. var result = ''; result += index +' : ' + item.title + ', ' + item.url; console.log(result); // 0 : 다음, http://daum.net // 1 : 네이버, http://naver.com })
+		}
 
 });
 	
