@@ -60,7 +60,7 @@ $(document).ready(function(){
 		$.each(bi, function (index, item) { 
 
 			console.log(item);
-			var bis = item.attr('src');
+			var bis = item.getAttribute('src').split('_');
 			console.log(bis);
 			bis = bis.split('_');
 	        console.log(bis);
