@@ -44,6 +44,7 @@
 
 @media all and (max-width:680px){
 	#content { padding-bottom:10%; }
+	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { display:none; }
 	.recent { display:block; }
