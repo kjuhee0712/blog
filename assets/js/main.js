@@ -60,11 +60,11 @@ $(document).ready(function(){
 		$.each(bi, function (index, item) { 
 
 			console.log(item);
-			/*var bis = item.attr('src');
+			var bis = item.attr('src');
 			console.log(bis);
 			bis = bis.split('_');
 	        console.log(bis);
-			item.attr('src',bis[0]+'_'+bis[1]+'.jpg');	*/
+			item.attr('src',bis[0]+'_'+bis[1]+'.jpg');
 
 		// 두 번째 매개변수로는 콜백함수인데 콜백함수의 매개변수 중 
 		// 첫 번째 index는 배열의 인덱스 또는 객체의 키를 의미하고 
