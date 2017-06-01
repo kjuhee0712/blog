@@ -22,15 +22,16 @@ $(document).ready(function(){
 		      settings: {
 		        slidesToShow: 2,
 		        slidesToScroll: 2,
-		        infinite: true,
+		        infinite: true
 		      }
 		    },
 		    {
-		      breakpoint: 640,
-		      centerMode: false,
+		      breakpoint: 640,		     
 		      settings: {
 		        slidesToShow: 2,
-		        slidesToScroll: 2
+		        slidesToScroll: 2,
+		        centerMode: false,
+		        infinite: true
 		      }
 		    }
 		]
