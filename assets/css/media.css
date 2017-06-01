@@ -42,18 +42,18 @@
 }
 
 
-@media all and (max-width:640px){
-	#content { margin-bottom:10%; }
+@media all and (max-width:680px){
+	#content { padding-bottom:10%; }
 	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
-	.recent { display:table; }
-	.recent.study { margin-top:20px; }
+	.recent { display:block; }
 	.recent article { width:50%; }
 	.recent article.no_04 { float:right; }
 	.recent article.no_01, .recent article.no_07 { margin-top:0; width:50%; height:277px; }
 	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top: 55px; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
 	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:30px auto 0; }
+	.recent article.no_07, .recent article.no_08 { margin-top:20px; }
 	.recent article.no_11 ul.post_box li { width:50%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:270px; }
 	
