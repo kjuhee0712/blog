@@ -76,7 +76,7 @@
 	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:5px auto 0; width:90%; }
 	.recent article.no_05 { display:block; margin-top:20px; }
 	.recent article.no_06, .recent article.no_08 { margin-top:0; }
-	.recent article.no_06 ul.post_box li { display:table; float:none; margin-top:5px; padding:0; width:88%; border:0; }
+	.recent article.no_06 ul.post_box li { display:table; float:none; margin:5px auto 0; padding:0; width:88%; border:0; }
 	.recent article.no_11 ul.post_box li { margin-top:5px; width:100%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:400px; }
 }
