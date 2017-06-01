@@ -32,7 +32,7 @@
 
 @media all and (max-width:780px){
 	.main_banner .slick-slide dl { padding:30% 10%; }
-	.main_banner .slick-slide dl dt { max-height:44px; font-size:17px; }
+	.main_banner .slick-slide dl dt { max-height:42px; line-height:22px; font-size:17px; }
 	.main_banner .slick-slide dl dd.excerpt { margin-top:10px; font-size:12px; }
 	.main_banner .slick-slide dl dd.date { margin-top:20px; }
 	.recent article ul.post_box li { padding:3px 0; }
@@ -48,16 +48,15 @@
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
 	.recent { display:block; }
-	.recent article { width:50%; }
+	.recent article { padding:25px; width:100%; }
 	.recent article h1 > span { display:inline; }
 	.recent article ul.post_box li { padding:6px 0; }
-	.recent article ul.post_box.img_box li a { height:254px; }
+	.recent article ul.post_box.img_box li a { height:495px; }
 	.recent article.no_04 { float:right; }
-	.recent article.no_01, .recent article.no_07 { margin-top:0; width:50%; height:322px; }
-	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top: 55px; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
-	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:30px auto 0; }
-	.recent article.no_07, .recent article.no_08 { margin-top:20px; }
+	.recent article.no_05 { display:block; margin-top:20px; }	
+	.recent article.no_06, .recent article.no_08 { margin-top:0; }
+	.recent article.no_06 ul.post_box li { display:table; float:none; margin:5px auto 0; padding:0; width:88%; border:0; }
 	.recent article.no_11 ul.post_box li { width:50%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:290px; }
 }
@@ -67,17 +66,13 @@
 	.main_banner .slick-slide dl { padding:39% 10%; }
 	.main_banner .slick-slide dl dt { max-height:55px; font-size:20px; }
 	.main_banner .slick-slide dl dd.excerpt { margin-top:20px; }
-	.main_banner .slick-slide dl dd.date { margin-top:30px; }
-	.recent article { padding:25px; width:100%; }
+	.main_banner .slick-slide dl dd.date { margin-top:30px; }	
 	.recent article ul.post_box li { padding:7px 0; }
 	.recent article ul.post_box.img_box li a { height:400px; }
 	.recent article h1 > span { display:none; }
 	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
 	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top:0; }
-	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:5px auto 0; width:90%; }
-	.recent article.no_05 { display:block; margin-top:20px; }
-	.recent article.no_06, .recent article.no_08 { margin-top:0; }
-	.recent article.no_06 ul.post_box li { display:table; float:none; margin:5px auto 0; padding:0; width:88%; border:0; }
+	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:5px auto 0; width:90%; }	
 	.recent article.no_11 ul.post_box li { margin-top:5px; width:100%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:400px; }
 }
