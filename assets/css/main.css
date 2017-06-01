@@ -29,7 +29,7 @@
 .main_banner .slick-slide { position:relative; display:inline-flex; height:auto; overflow:hidden; }
 .main_banner .slick-slide a { width:100%; height:100%; }
 .main_banner .slick-slide a img { width:100%; height:auto; }
-.main_banner .slick-slide dl { position:absolute; top:0; left:0; display:block; padding:30% 10%; width:100%; height:100%; background-color:rgba(0,0,0,0.4); line-height:normal; z-index:11 }
+.main_banner .slick-slide dl { position:absolute; top:0; left:0; display:block; padding:30% 10%; width:100%; background-color:rgba(0,0,0,0.4); line-height:normal; z-index:11 }
 .main_banner .slick-slide a:hover dl { background-color:rgba(0,0,0,0.3); }
 .main_banner .slick-slide dl dt { display:inline-block; width:100%; height:auto; font-size:20px; color:#fff; text-align:center;  text-shadow:1px 1px 6px rgba(0,0,0,0.8); }
 .main_banner .slick-slide dl dd.excerpt { display:inline-block; margin-top:25px; width:100%; height:auto; font-size:13px; color:#fff; text-align:center;  text-shadow:1px 1px 6px rgba(0,0,0,0.8); }

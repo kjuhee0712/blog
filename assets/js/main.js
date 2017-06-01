@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	//브라우저 사이즈에 따라 배너 작동
 	var bw=$(window).width();
-	if(bw > 1280){
+	if(bw > 1024){
 
 		$('.main_banner').slick({
 		    infinite: true,
