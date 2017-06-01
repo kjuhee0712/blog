@@ -82,8 +82,10 @@
 	.recent article.no_11 ul.post_box.img_box li a { height:400px; }
 }
 
-@media all and (max-width:480px){
-	
+@media all and (max-width:414px){
+	.main_banner .slick-slide dl { padding: 35% 10%; }
+	.recent article ul.post_box.img_box li a { height:330px; }
+	.recent article.no_11 ul.post_box.img_box li a { height:380px; }
 }	
 
 
