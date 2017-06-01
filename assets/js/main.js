@@ -31,6 +31,7 @@ $(document).ready(function(){
 		        slidesToShow: 2,
 		        slidesToScroll: 2,
 		        centerMode: false,
+		        arrows: false,
 		        infinite: true
 		      }
 		    }
