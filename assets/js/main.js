@@ -37,3 +37,35 @@ $(document).ready(function(){
 
 });
 	
+
+$(window).on('resize', function(){
+
+	//브라우저 사이즈에 따라 배너 작동
+	var bw=$(window).width();
+	if(bw > 1024){
+
+		$('.main_banner').slick({
+		    infinite: true,
+	        centerMode: true,
+	        centerPadding: '120px',
+	        slidesToShow: 3,
+	        slidesToScroll: 3
+		});		
+
+	}else{
+
+		$('.main_banner').slick({
+		    infinite: true,
+	        centerMode: true,
+	        centerPadding: '120px',
+	        slidesToShow: 2,
+	        slidesToScroll: 1
+		});	
+
+	}
+	
+	//이미지 높이에 따라 텍스트박스 높이 조절
+	$('.main_banner .slick-slide dl').height($('.main_banner .slick-slide a img').height());  
+	
+});
+	

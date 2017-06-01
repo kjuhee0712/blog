@@ -1,12 +1,12 @@
 @charset "utf-8"; 
 
-@media all and (max-width:480px){
-
-
+@media all and (max-width:1200px){
+	#header { display:none; }
+	#content { margin-left:0; }
 }
 
 @media all and (max-width:415px){
-
+	
 
 }
 

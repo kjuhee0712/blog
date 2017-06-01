@@ -94,7 +94,7 @@
 .post_head .btn_wrap.next { right:0; }
 .post_head .btn_wrap a { display:block; width:100%; height:100%; }
 .post_head .btn_wrap a:hover { color:#fff; }
-.post_head .overay { position:absolute; top:0; display:block; width:100%; height:100%; z-index:0; background-color:rgba(0,0,0,0.3); }
+.post_head .overay { position:absolute; top:0; display:inline-flex; width:100%; height:100%; z-index:0; background-color:rgba(0,0,0,0.3); }
 .post_head .txt { position:absolute; top:190px; width:100%; text-align:center; font-size:14px; }
 .post_head .preview:hover .overay, .post_head .next:hover .overay { background-color:rgba(0,0,0,0.2); }
 .post_head .preview a:before { position:absolute; top:120px; display:block; width:100%; height:auto; content:url(../../images/icon_left_white.png); text-align:center; z-index:1; }
