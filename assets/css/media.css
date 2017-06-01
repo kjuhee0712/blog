@@ -5,9 +5,11 @@
 	#content { padding-left:0; }
 }
 
-@media all and (max-width:415px){
+@media all and (max-width:1024px){
+	.recent article { width:100%; height:auto; }
+	.recent article h1 { margin-top:20px; font-size:18px; }
+	.recent article h1 > br { display:none; }
 	
-
 }
 
 @media all and (max-width:360px){
