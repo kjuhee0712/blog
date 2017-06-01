@@ -60,7 +60,6 @@
 
 
 @media all and (max-width:480px){
-	.main_banner .slick-slide dl dd.excerpt { display:none; }
 	.recent article { width:100%; }
 	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
 	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top:0; }
