@@ -6,11 +6,17 @@
 }
 
 @media all and (max-width:1024px){
-	.recent article.no_01 { width:100%; height:auto; border-bottom: 1px solid #e5e5e5; }
+	.innerwrap { display:block; width:94%; }
+	.recent article { width:33.333%; height:auto; border-bottom:2px solid #e5e5e5; }
+	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
+	.recent article.no_05 { display:none; }
+	.recent article.no_06 { margin-top:20px; width:100%; }
+	.recent article.no_07 { margin-top:20px; }
 	.recent article h1 { margin-top:10px; font-size:18px; }
 	.recent article h1 > br { display:none; }
 	.recent article ul.tag_box { margin:10px auto;}
 	.recent article ul.tag_box li { float:none; margin:0 5px; width:auto; }
+	.recent article ul.post_box.img_box li a { height:248px; }
 	
 }
 
