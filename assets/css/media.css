@@ -44,8 +44,8 @@
 
 @media all and (max-width:680px){
 	#content { padding-bottom:10%; }
-	.pc { display:none; }
-	.mobile { display:block; }
+	.pc { display:none !important; }
+	.mobile { display:block !important; }
 	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
