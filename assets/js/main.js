@@ -56,7 +56,7 @@ $(document).ready(function(){
 		var bis = $('.main_banner .slick-slide a img').attr('src');
 		bis = bis.split('_');
         console.log(bis);
-		$('.main_banner .slick-slide a img').attr('src',bis[0]+'_'+bis[1]);
+		$('.main_banner .slick-slide a img').attr('src',bis[0]+'_'+bis[1]+'.jpg');
 	}
 
 });
