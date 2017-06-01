@@ -7,15 +7,13 @@ $(document).ready(function(){
 			document.body.className="ie";
 	}
 
-	//브라우저 사이즈에 따라 배너 작동
-	var bw=$(window).width();
-
 	$('.main_banner').slick({
 		    infinite: true,
 	        centerMode: true,
 	        centerPadding: '120px',
 	        slidesToShow: 3,
 	        slidesToScroll: 3,
+	        autoplay: true,
 	        responsive: [
 		    {
 		      breakpoint: 1024,
@@ -34,15 +32,29 @@ $(document).ready(function(){
 		        arrows: false,
 		        infinite: true
 		      }
+		    },
+		    {
+		      breakpoint: 480,		     
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        centerMode: false,
+		        arrows: false,
+		        infinite: true
+		      }
 		    }
 		]
 	});	
 
+	//브라우저 사이즈에 따라 작동
+	var bw=$(window).width();
 
 	if(bw > 1024){
-
+		var bis = $('.main_banner .slick-slide a img').attr('src');
+		bis = bis.split('_');
+        console.log(bis);
+		//$('.main_banner .slick-slide a img').attr('src','../../images/list_dot.gif');
 			
-
 	}else{
 
 

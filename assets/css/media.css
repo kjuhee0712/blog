@@ -56,7 +56,11 @@
 	.recent article.no_07, .recent article.no_08 { margin-top:20px; }
 	.recent article.no_11 ul.post_box li { width:50%; }
 	.recent article.no_11 ul.post_box.img_box li a { height:270px; }
-	
+}
+
+
+@media all and (max-width:480px){
+	.main_banner .slick-slide dl dd.excerpt { display:none; }
 }
 
 
