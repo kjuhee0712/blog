@@ -60,6 +60,10 @@
 
 
 @media all and (max-width:480px){
+	.main_banner .slick-slide dl { padding:39% 10%; }
+	.main_banner .slick-slide dl dt { max-height:55px; font-size:20px; }
+	.main_banner .slick-slide dl dd.excerpt { margin-top:20px; }
+	.main_banner .slick-slide dl dd.date { margin-top:30px; }
 	.recent article { padding:25px; width:100%; }
 	.recent article ul.post_box li { padding:7px 0; }
 	.recent article ul.post_box.img_box li a { height:400px; }
