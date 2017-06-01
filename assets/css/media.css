@@ -61,6 +61,7 @@
 
 @media all and (max-width:480px){
 	.main_banner .slick-slide dl dd.excerpt { display:none; }
+	.recent article ul.tag_box { width:90%; }
 }
 
 
