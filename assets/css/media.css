@@ -7,6 +7,7 @@
 
 @media all and (max-width:1024px){
 	.innerwrap { display:block; width:94%; }
+	.banner_wrap { margin-top:0; }
 	.recent article { width:33.333%; height:auto; border-bottom:2px solid #e5e5e5; }
 	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
 	.recent article.no_05 { display:none; }
