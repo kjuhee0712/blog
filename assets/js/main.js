@@ -69,6 +69,7 @@ $(document).ready(function(){
 		// 첫 번째 index는 배열의 인덱스 또는 객체의 키를 의미하고 
 		// 두 번째 매개 변수 item은 해당 인덱스나 키가 가진 값을 의미합니다. var result = ''; result += index +' : ' + item.title + ', ' + item.url; console.log(result); // 0 : 다음, http://daum.net // 1 : 네이버, http://naver.com })
 		});
+	}
 
 });
 	
