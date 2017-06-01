@@ -49,15 +49,17 @@
 	.main_banner .slick-slide dl dd.excerpt { display:none; }
 	.recent { display:block; }
 	.recent article { width:50%; }
+	.recent article h1 > span { display:inline; }
+	.recent article ul.post_box li { padding:6px 0; }
+	.recent article ul.post_box.img_box li a { height:254px; }
 	.recent article.no_04 { float:right; }
-	.recent article.no_01, .recent article.no_07 { margin-top:0; width:50%; height:277px; }
+	.recent article.no_01, .recent article.no_07 { margin-top:0; width:50%; height:322px; }
 	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top: 55px; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
 	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:30px auto 0; }
 	.recent article.no_07, .recent article.no_08 { margin-top:20px; }
 	.recent article.no_11 ul.post_box li { width:50%; }
-	.recent article.no_11 ul.post_box.img_box li a { height:270px; }
-	.recent article h1 > span { display:inline; }
+	.recent article.no_11 ul.post_box.img_box li a { height:290px; }
 }
 
 
