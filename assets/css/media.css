@@ -50,7 +50,7 @@
 	.recent { display:block; }
 	.recent article { padding:25px; width:100%; }
 	.recent article h1 > span { display:inline; }
-	.recent article ul.post_box li { padding:6px 0; }
+	.recent article ul.post_box li { padding:8px 0; }
 	.recent article ul.post_box.img_box li a { height:495px; }
 	.recent article.no_04 { float:right; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
@@ -67,7 +67,6 @@
 	.main_banner .slick-slide dl dt { max-height:55px; font-size:20px; }
 	.main_banner .slick-slide dl dd.excerpt { margin-top:20px; }
 	.main_banner .slick-slide dl dd.date { margin-top:30px; }	
-	.recent article ul.post_box li { padding:7px 0; }
 	.recent article ul.post_box.img_box li a { height:400px; }
 	.recent article h1 > span { display:none; }
 	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
