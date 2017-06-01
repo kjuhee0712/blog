@@ -8,7 +8,7 @@
 @media all and (max-width:1024px){
 	.innerwrap { display:block; width:94%; }
 	.banner_wrap { margin-top:0; }
-	.main_banner .slick-slide dl { margin-top:40% 10% 0; }
+	.main_banner .slick-slide dl { margin:40% 10% 0; }
 	.recent { height:auto; }
 	.recent.photograph { display:table; }
 	.recent article { width:33.333%; height:auto; border-bottom:2px solid #e5e5e5; }
@@ -16,14 +16,16 @@
 	.recent article.no_05 { display:none; }
 	.recent article.no_06 { margin-top:20px; width:100%; }
 	.recent article.no_07 { margin-top:20px; }
-	.recent article h1 { margin-top:10px; font-size:18px; }
+	.recent article h1 { margin-top:5px; font-size:15px; letter-spacing:5px; color:#777; }
 	.recent article h1 > br { display:none; }
 	.recent article h2 { margin-top:0; }
-	.recent article ul.tag_box { margin:10px auto;}
+	.recent article ul.tag_box { margin:5px auto 0;}
 	.recent article ul.tag_box li { float:none; margin:0 5px; width:auto; }
+	.recent article ul.post_box li { padding:6px 0; }
 	.recent article ul.post_box,
 	.recent article ul.post_box.img_box { margin-top:15px; }
-	.recent article ul.post_box.img_box li a { height:243px; }
+	.recent article ul.post_box.img_box li a { height:254px; }
+	.recent article.no_11 ul.post_box.img_box { margin-top:20px; }
 	
 }
 
