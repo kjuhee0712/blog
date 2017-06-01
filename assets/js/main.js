@@ -53,7 +53,10 @@ $(document).ready(function(){
 		
 			
 	}else{
-		var bis = $('.main_banner .slick-slide a img').attr('src');
+		var bi = $('.main_banner .slick-slide a img');
+		console.log(bi)
+		var bis = bi.attr('src');
+		console.log(bis);
 		bis = bis.split('_');
         console.log(bis);
 		$('.main_banner .slick-slide a img').attr('src',bis[0]+'_'+bis[1]+'.jpg');
