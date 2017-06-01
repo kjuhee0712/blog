@@ -48,8 +48,11 @@
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
 	.recent { display:block; }
+	.recent article { width:50%; }
+	.recent article h1 > span { display:inline; }
+	.recent article ul.post_box li { padding:6px 0; }
+	.recent article ul.post_box.img_box li a { height:254px; }
 	.recent article.no_04 { float:right; }
-	.recent article.no_05 { display:block; }
 	.recent article.no_01, .recent article.no_07 { margin-top:0; width:50%; height:322px; }
 	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top: 55px; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
