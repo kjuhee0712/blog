@@ -32,7 +32,7 @@ $(document).ready(function(){
 	}
 	
 	//이미지 높이에 따라 텍스트박스 높이 조절
-	$('.main_banner .slick-slide dl').hiehgt($('.main_banner .slick-slide a img').height());  
+	$('.main_banner .slick-slide dl').height($('.main_banner .slick-slide a img').height());  
 	
 
 });
