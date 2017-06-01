@@ -27,7 +27,7 @@
 	.recent article ul.post_box,
 	.recent article ul.post_box.img_box { margin-top:15px; }
 	.recent article ul.post_box.img_box li a { height:254px; }
-	.recent article.no_11 ul.post_box.img_box { margin-top:20px; }	
+	.recent article.no_12 ul.post_box.img_box { margin-top:20px; }	
 }
 
 @media all and (max-width:780px){
@@ -37,7 +37,7 @@
 	.main_banner .slick-slide dl dd.date { margin-top:20px; }
 	.recent article ul.post_box li { padding:3px 0; }
 	.recent article ul.post_box.img_box li a { height:209px; }
-	.recent article.no_11 ul.post_box.img_box li a { height:240px; }
+	.recent article.no_12 ul.post_box.img_box li a { height:240px; }
 	.recent article h1 > br { display:block; }
 }
 
@@ -58,8 +58,8 @@
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
 	.recent article.no_06, .recent article.no_08 { margin-top:0; }
 	.recent article.no_06 ul.post_box li { display:table; float:none; margin:5px auto 0; padding:0; width:88%; border:0; }
-	.recent article.no_11 ul.post_box li { width:50%; }
-	.recent article.no_11 ul.post_box.img_box li a { height:290px; }
+	.recent article.no_12 ul.post_box li { width:50%; }
+	.recent article.no_12 ul.post_box.img_box li a { height:290px; }
 }
 
 
@@ -73,19 +73,19 @@
 	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
 	.recent article.no_01 h1, .recent article.no_07 h1 { margin-top:0; }
 	.recent article.no_01 ul.tag_box, .recent article.no_07 ul.tag_box { margin:5px auto 0; width:90%; }	
-	.recent article.no_11 ul.post_box li { margin-top:5px; width:100%; }
-	.recent article.no_11 ul.post_box.img_box li a { height:400px; }
+	.recent article.no_12 ul.post_box li { margin-top:5px; width:100%; }
+	.recent article.no_12 ul.post_box.img_box li a { height:400px; }
 }
 
 @media all and (max-width:414px){
 	.main_banner .slick-slide dl { padding: 35% 10%; }
 	.recent article ul.post_box.img_box li a { height:330px; }
-	.recent article.no_11 ul.post_box.img_box li a { height:380px; }
+	.recent article.no_12 ul.post_box.img_box li a { height:380px; }
 }	
 
 @media all and (max-width:360px){
 	.main_banner .slick-slide dl { padding: 32% 10%; }
 	.recent article ul.post_box.img_box li a { height:280px; }
-	.recent article.no_11 ul.post_box.img_box li a { height:310px; }
+	.recent article.no_12 ul.post_box.img_box li a { height:310px; }
 }	
 
