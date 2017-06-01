@@ -8,7 +8,7 @@
 @media all and (max-width:1024px){
 	.innerwrap { display:block; width:94%; }
 	.banner_wrap { margin-top:0; }
-	.main_banner .slick-slide dl { margin:40% 10% 0; }
+	.main_banner .slick-slide dl { padding:40% 10% 0; }
 	.recent { height:auto; }
 	.recent.photograph { display:table; }
 	.recent article { width:33.333%; height:auto; border-bottom:2px solid #e5e5e5; }
