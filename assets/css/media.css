@@ -8,7 +8,7 @@
 @media all and (max-width:1024px){
 	.innerwrap { display:block; width:94%; }
 	.banner_wrap { margin-top:0; }
-	.main_banner .slick-slide dl { padding:40% 10%; }
+	.main_banner .slick-slide dl { padding:34% 10%; }
 	.recent { margin-top:20px; height:auto; }
 	.recent.photograph { display:table; }
 	.recent.photograph .logo_wrap { width:100%; }
@@ -26,20 +26,23 @@
 	.recent article ul.post_box,
 	.recent article ul.post_box.img_box { margin-top:15px; }
 	.recent article ul.post_box.img_box li a { height:254px; }
-	.recent article.no_11 ul.post_box.img_box { margin-top:20px; }
+	.recent article.no_11 ul.post_box.img_box { margin-top:20px; }	
+}
 
+@media all and (max-width:780px){
+	.main_banner .slick-slide dl { padding:30% 10%; }
+	.main_banner .slick-slide dl dt { max-height:44px; font-size:17px; }
+	.main_banner .slick-slide dl dd.excerpt { margin-top:10px; font-size:12px; }
+	.main_banner .slick-slide dl dd.date { margin-top:20px; }
+	.recent article ul.post_box li { padding:3px 0; }
+	.recent article ul.post_box.img_box li a { height:209px; }
+	.recent article.no_11 ul.post_box.img_box li a { height:240px; }
+}
+
+
+@media all and (max-width:640px){
 	
-}
-
-@media all and (max-width:360px){
-
-
-}
-
-
-@media all and (max-width:320px){
-
-
+	
 }
 
 
