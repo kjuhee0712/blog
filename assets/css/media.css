@@ -94,6 +94,9 @@
 	.recent article, .recent article.no_06 { padding:15px; }
 	.recent article ul.post_box.img_box li a { height:170px; }
 	.recent article.no_12 ul.post_box.img_box li a { height:180px; }
+
+	.recent article.category_wrap ul.post_box.img_box li { padding:10px; }
+	.recent article.category_wrap ul.post_box.img_box li a span.thumb { height:155px; }
 }	
 
 @media all and (max-width:360px){
