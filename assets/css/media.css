@@ -80,14 +80,14 @@
 
 @media all and (max-width:414px){
 	.main_banner .slick-slide dl { padding: 35% 10%; }
-	.recent article { padding:15px; }
+	.recent article, .recent article.no_06 { padding:15px; }
 	.recent article ul.post_box.img_box li a { height:170px; }
 	.recent article.no_12 ul.post_box.img_box li a { height:180px; }
 }	
 
 @media all and (max-width:360px){
 	.main_banner .slick-slide dl { padding: 32% 10%; }
-	.recent article { padding:10px; }
+	.recent article, .recent article.no_06 { padding:10px; }
 	.recent article ul.post_box.img_box li a { height:150px; }
 	.recent article.no_12 ul.post_box.img_box li a { height:160px; }
 }	
