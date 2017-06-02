@@ -50,10 +50,11 @@
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
 	.recent { display:block; }
-	.recent article { padding:25px; width:100%; }
+	.recent article { padding:25px; width:50%; }
 	.recent article h1 > span { display:inline; }
 	.recent article ul.post_box li { padding:8px 0; }
 	.recent article ul.post_box.img_box li a { height:495px; }
+	.recent article.no_03, .recent article.no_05 { width:100%; }
 	.recent article.no_04 { float:right; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
 	.recent article.no_06, .recent article.no_08 { margin-top:0; }
