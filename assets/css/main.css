@@ -67,9 +67,8 @@
 .recent article ul.post_box li a > br { display:none; }
 
 .recent article.no_06 { padding-left:0; padding-right:0; width:75%; }
-.recent article.no_06 ul.post_box li { float:left; padding-left:2%; padding-right:2%; width:33.3333%; border-right:1px dashed #e5e5e5; }
+.recent article.no_06 ul.post_box li, .recent article.no_03.mobile ul.post_box li, .recent article.no_05.mobile ul.post_box li { float:left; padding-left:2%; padding-right:2%; width:33.3333%; border-right:1px dashed #e5e5e5; }
 .recent article.no_06 ul.post_box li:last { border-right:0; }
-
 .recent article.no_12 { padding:0; width:100%; background:transparent; }
 .recent article.no_12 ul.post_box.img_box { margin-top:40px; }
 .recent article.no_12 ul.post_box li { float:left; padding:1%; width:33.3333%; height:auto; }

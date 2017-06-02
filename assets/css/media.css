@@ -57,8 +57,8 @@
 	.recent article.no_03, .recent article.no_05 { width:100%; }
 	.recent article.no_04 { float:right; }
 	.recent article.no_01 h1 > span .recent article.no_07 h1 > span { display:none; }
+	.recent article.no_06 ul.post_box li, .recent article.no_03.mobile ul.post_box li, .recent article.no_05.mobile ul.post_box li { width:50%; }
 	.recent article.no_06, .recent article.no_08 { margin-top:0; }
-	.recent article.no_06 ul.post_box li { display:table; float:none; margin:5px auto 0; padding:0; width:88%; border:0; }
 	.recent article.no_12 ul.post_box li { width:50%; }
 	.recent article.no_12 ul.post_box.img_box li a { height:290px; }
 }
