@@ -2,7 +2,7 @@
 
 
 @media all and (max-width:1447px){
-	.post_head .btn_wrap { display:none; }
+	.post_head .btn_wrap a { display:none; }
 }
 
 
