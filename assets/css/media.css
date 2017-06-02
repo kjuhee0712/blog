@@ -1,5 +1,11 @@
 @charset "utf-8"; 
 
+
+@media all and (max-width:1447px){
+	.post_head .btn_wrap { display:none; }
+}
+
+
 @media all and (max-width:1200px){
 	#header { display:none; }
 	#content { padding-left:0; }
