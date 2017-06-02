@@ -105,7 +105,7 @@
 .post_head .preview a:before { position:absolute; top:120px; display:block; width:100%; height:auto; content:url(../../images/icon_left_white.png); text-align:center; z-index:1; }
 .post_head .next a:before { position:absolute; top:120px; display:block; width:100%; height:auto; content:url(../../images/icon_right_white.png); text-align:center; z-index:1; }
 .post_head .center { position:relative; height:100%; text-align:center; }
-.post_head .center dl { position:absolute; top:120px; width:100%; height:auto; color:#fff; text-shadow:1px 1px 6px rgba(0,0,0,0.8); z-index:1; }
+.post_head .center dl { position:absolute; top:120px; left:5%; width:90%; height:auto; color:#fff; text-shadow:1px 1px 6px rgba(0,0,0,0.8); z-index:1; }
 .post_head .center dl dt > br { display:none; }
 .post_head .center dl dt { margin-bottom:15px; font-size:24px; font-weight:400; }
 .post_head .center dl dd.date { margin-top:20px; letter-spacing:1px; }
@@ -121,7 +121,8 @@ article.post_wrap blockquote { margin:30px 0; font-size:inherit; text-align:cent
 article.post_wrap blockquote p { margin:15px 0 20px; font-size:inherit; text-align:center; font-size:24px; color:#888; }
 article.post_wrap blockquote:before { width:100%; height:auto; text-align:center; content:url(../../images/blockquote_before.png); }
 article.post_wrap blockquote:after { width:100%; height:auto; text-align:center; content:url(../../images/blockquote_after.png); }
-article.post_wrap ol { list-style:inherit; list-style-type:decimal; font-size:inherit; }
+article.post_wrap ol { list-style:inherit; list-style-type:decimal; font-size:inherit;  list-style-position: inside;
+ }
 article.post_wrap ul { font-size:inherit; font-weight:inherit; color:inherit; }
 article.post_wrap ol li, article.post_wrap ul li { font-size:inherit; font-weight:inherit; color:inherit; }
 article.post_wrap ul li:before { content:"- "; }
