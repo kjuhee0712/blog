@@ -34,7 +34,7 @@
 	.main_banner .slick-slide dl { padding:30% 10%; }
 	.main_banner .slick-slide dl dt { max-height:42px; line-height:22px; font-size:17px; }
 	.main_banner .slick-slide dl dd.excerpt { margin-top:10px; font-size:12px; }
-	.main_banner .slick-slide dl dd.date { margin-top:20px; }
+	.main_banner .slick-slide dl dd.date { margin-top:20px; font-size:12px; }
 	.recent article ul.post_box li { padding:3px 0; }
 	.recent article ul.post_box.img_box li a { height:209px; }
 	.recent article.no_12 ul.post_box.img_box li a { height:240px; }
@@ -49,6 +49,7 @@
 	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
+	.main_banner .slick-slide dl dd.date { font-size:13px; }
 	.recent { display:block; }
 	.recent article { padding:25px; width:50%; }
 	.recent article h1 > span { display:inline; }
