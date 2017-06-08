@@ -77,7 +77,7 @@ $(document).ready(function(){
 	});
 
 	$('.footer_btn.btn_home').click(function () {
-		$('header_bg').animate({ 'width': 'toggle' }, 500);
+		$('.header_bg').animate({ 'width': 'toggle' }, 500);
 	});	
 
 });
