@@ -77,9 +77,14 @@ $(document).ready(function(){
 	});
 
 	$('a.btn_menu').click(function () {
-		$('.header_bg').animate({ 'width': 'toggle' }, 500);
+		$('.header_bg').animate({ 'width': 'toggle' }, 200);
 		console.log($(this));
 	});	
+
+	$('.header_bg').click(function(e){
+		e.stopPropagation();
+		$('.header_bg').animate({ 'width': 'toggle' }, 200);
+	});
 
 });
 	
