@@ -67,6 +67,10 @@
 	#content { padding-bottom:10%; }
 	.pc { display:none !important; }
 	.mobile { display:block !important; }
+	.btn_top { margin-left:38%; }
+	.btn_home { margin-left:38%; }
+	.btn_menu { margin-right:38%; }
+
 	.banner_wrap .overay { display:none; }
 	.main_banner .slick-slide dl { padding:33% 10%; }
 	.main_banner .slick-slide dl dd.excerpt { font-size:14px; }
@@ -124,6 +128,10 @@
 }
 
 @media all and (max-width:414px){
+
+	.btn_top { margin-left:35%; }
+	.btn_home { margin-left:35%; }
+	.btn_menu { margin-right:35%; }
 
 	.main_banner .slick-slide dl { padding: 35% 10%; }
 	.recent article, .recent article.no_06 { padding:15px; }
