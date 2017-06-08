@@ -76,7 +76,7 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$('.footer_btn.btn_home').click(function () {
+	$('.btn_home').click(function () {
 		$('.header_bg').animate({ 'width': 'toggle' }, 500);
 	});	
 
