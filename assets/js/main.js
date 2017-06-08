@@ -83,6 +83,7 @@ $(document).ready(function(){
 
 	$('.header_bg').click(function(e){
 		e.stopPropagation();
+		e. preventDefault()
 		$('.header_bg').animate({ 'width': 'toggle' }, 200);
 	});
 
