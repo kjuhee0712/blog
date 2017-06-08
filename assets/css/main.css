@@ -12,7 +12,7 @@
 #header ul li { display:inline-block; float:left; width:100%; height:auto; line-height:24px; color:#888; font-size:13px; text-align:left; }
 #header ul li a { width:100%; height:auto; text-indent:10px; }
 #header #footer { position:absolute; bottom:30px; left:0; display:inline-block; width:100%; height:auto; text-align:center; } 
-#header #footer ul { display:inline-block; width:100%; }
+#header #footer ul { display:inline-block; margin-top:0; width:100%; }
 #header #footer ul li { display:inline; float:none; width:auto; text-align:center; } 
 
 /* heder > sidemenu */
