@@ -78,15 +78,17 @@ $(document).ready(function(){
 
 	$('a.btn_menu').click(function () {
 		$('.header_bg').animate({ 'width': 'toggle' }, 200);
-		console.log($(this));
 	});	
 
 	$('.header_bg').click(function(e){
 		e.stopPropagation();
-		e.preventDefault()
+		e.preventDefault();
 		$('.header_bg').animate({ 'width': 'toggle' }, 200);
 	});
 
+	$('#header a')..click(function(e){
+		e.stopPropagation();	
+	});
 });
 	
 
