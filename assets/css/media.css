@@ -12,6 +12,7 @@
 
 	#header { display:none; }
 	#content { padding-left:0; }
+	.btn_menu { display:block; }
 
 }
 
