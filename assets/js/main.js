@@ -78,6 +78,7 @@ $(document).ready(function(){
 
 	$('.btn_home').click(function () {
 		$('.header_bg').animate({ 'width': 'toggle' }, 500);
+		console.log($(this));
 	});	
 
 });
