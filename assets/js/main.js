@@ -76,6 +76,10 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$('.footer_btn.btn_home').click(function () {
+		$('header_bg').animate({'width':'100%'},500);
+	});	
+
 });
 	
 
