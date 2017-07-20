@@ -24,7 +24,8 @@
 	.recent { margin-top:20px; height:auto; }
 	.recent.photograph { display:table; }
 	.recent.photograph .logo_wrap { width:100%; }
-	.recent article { width:33.333%; height:auto; border-bottom:2px solid #e5e5e5; }
+	.recent article { width:33.333%; height:auto; min-height:initial; max-height:328px; border-bottom:2px solid #e5e5e5; }
+	.recent.photograph article { max-height:initial; }
 	.recent article.no_01, .recent article.no_07 { width:100%; height:auto; }
 	.recent article.no_05 { display:none; }
 	.recent article.no_06 { margin-top:20px; width:100%; }
@@ -35,11 +36,12 @@
 	.recent article h2 { margin-top:0; }
 	.recent article ul.tag_box { margin:5px auto 0;}
 	.recent article ul.tag_box li { float:none; margin:0 5px; width:auto; }
-	.recent article ul.post_box li { padding:6px 0; }
+	.recent article ul.post_box li { padding:7px 0; }
 	.recent article ul.post_box,
 	.recent article ul.post_box.img_box { margin-top:15px; }
-	.recent article ul.post_box.img_box li a { height:254px; }
+	.recent article ul.post_box.img_box li a { height:262px; }
 	.recent article.no_12 ul.post_box.img_box { margin-top:20px; }	
+	.recent article.no_12 ul.post_box.img_box li a { height:290px; }
 
 	.recent article.category_wrap .logo_wrap { margin-top:20px; }
 	.recent article.category_wrap ul.post_box.img_box li a span.thumb { height:205px; }
