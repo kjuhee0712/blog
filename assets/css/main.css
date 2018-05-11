@@ -129,9 +129,9 @@ article.post_wrap h2 { margin:20px 0 10px; font-size:17px; color:#999; text-alig
 article.post_wrap h3 { margin:10px 0; font-size:15px; color:#888; }
 article.post_wrap p { margin:10px 0;  font-size:inherit; }
 article.post_wrap blockquote { margin:30px 0; font-size:inherit; text-align:center; }
-article.post_wrap blockquote p { margin:15px 0 20px; font-size:inherit; text-align:center; font-size:24px; color:#888; }
-article.post_wrap blockquote:before { width:100%; height:auto; text-align:center; content:url(../../images/blockquote_before.png); }
-article.post_wrap blockquote:after { width:100%; height:auto; text-align:center; content:url(../../images/blockquote_after.png); }
+article.post_wrap blockquote p { margin:15px 0 20px; font-size:inherit; text-align:center; font-size:20px; color:#888; }
+article.post_wrap blockquote:before { width:100%; height:auto; text-align:center; content:'"'; }
+article.post_wrap blockquote:after { width:100%; height:auto; text-align:center; content:'"'; }
 article.post_wrap ol { list-style:inherit; list-style-type:decimal; font-size:inherit;  list-style-position:inside;
  }
 article.post_wrap ul { font-size:inherit; font-weight:inherit; color:inherit; }
