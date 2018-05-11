@@ -124,7 +124,7 @@
 section.post { background-color:#fff; padding:4% 7% 7% 7%; }
 article.post_wrap { color:#444; font-size:14px; }
 article.post_wrap * { letter-spacing:0; }
-article.post_wrap h1 { margin:30px 0; font-size:25px; font-weight:bold; text-align:center; }
+article.post_wrap h1 { margin:30px 0 10px; font-size:25px; font-weight:bold; text-align:center; }
 article.post_wrap h2 { margin:0; font-size:17px; color:#999; text-align:center; }
 article.post_wrap h3 { margin:0; font-size:15px; color:#888; }
 article.post_wrap p { margin:0;  font-size:inherit; }
