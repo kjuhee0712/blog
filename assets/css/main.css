@@ -140,11 +140,9 @@ article.post_wrap hr { margin:7% 0; border:0; border-top:1px dashed #ddd; }
 article.post_wrap em { font-style:italic; }
 article.post_wrap strong { font-weight:bold; }
 article.post_wrap img { display:block; margin:30px auto 0; max-width:80%; width:auto; height:auto; }
+article.post_wrap img + em { text-align:center; font-size:14px; color:#aaa; }
 article.post_wrap a { text-decoration:underline; }
-.image-caption {
-  text-align: center;
-  font-size: .8rem;
-  color: light-grey;}
+
 
 .post .tag_box { display:inline-block; margin-top:7%; padding:30px 0 35px; width:100%; height:auto; border-top:1px dashed #ddd; }
 .post .tag_box li { display:inline-block; margin:6px 0 0 0; padding:0 5px 3px; width:initial; height:initial; border:0; border-radius:3px; list-style:none; text-overflow:clip; font-size:11px; border:1px solid #ddd; color:#888; letter-spacing:2px; }
