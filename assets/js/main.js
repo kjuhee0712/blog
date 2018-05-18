@@ -46,6 +46,10 @@ $(document).ready(function(){
 		]
 	});	
 
+	$('.gallery_wrap').slick({
+
+	});	
+
 	//브라우저 사이즈에 따라 작동
 	var bw=$(window).width();
 
