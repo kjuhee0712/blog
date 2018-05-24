@@ -13,7 +13,7 @@ layout: default
       <div class="center innerwrap" style="background:url({{ page.image-t }}) no-repeat center center; background-size:cover;">
         <span class="overay"></span>
         <dl>
-          <dt class="title">{{ page.title }}</dt>
+          <dt class="title">{{ page.subtitle }}</dt>
           <dd class="excerpt" class="date">{{ page.description }}</dd>
           <dd class="date">{{ page.date | date: "%Y. %-m. %-d." }}</dd>
         </dl>
@@ -50,13 +50,13 @@ layout: default
   <div class="post_footer innerwrap">
     <div class="btn_wrap preview">
       {% if page.previous.url %}
-      <a  href="{{page.previous.url | prepend: site.baseurl }}" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span class="txt">이전글</span><span class="title">{{ page.previous.title }}</span></a>   
+      <a  href="{{page.previous.url | prepend: site.baseurl }}" style="background:url({{ page.previous.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span class="txt">이전글</span><span class="title">{{ page.previous.subtitle }}</span></a>   
       {% endif %}   
     </div>  
 
     <div class="btn_wrap next">
       {% if page.next.url %}
-      <a  href="{{page.next.url | prepend: site.baseurl }}" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span class="txt">다음글</span><span class="title">{{ page.next.title }}</span></a>  
+      <a  href="{{page.next.url | prepend: site.baseurl }}" style="background:url({{ page.next.image-t }}) no-repeat center center; background-size:cover;"><span class="overay"></span><span class="txt">다음글</span><span class="title">{{ page.next.subtitle }}</span></a>  
       {% endif %}
     </div>  
   </div>
@@ -71,7 +71,7 @@ layout: default
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
               <span style="background:url('{{ post.image-s }}') no-repeat center center; background-size:cover;" class="thumb">포스트이미지</span>
-              <span class="title" itemprop="name">{{ post.title }}</span>
+              <span class="title" itemprop="name">{{ post.subtitle }}</span>
               <span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">- {{ post.date | date: "%Y년 %-m월 %-d일" }}</span>           
             </a>
             <ul class="tag_box">
