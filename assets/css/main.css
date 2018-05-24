@@ -128,7 +128,7 @@ article.post_wrap h1 { margin:30px 0 10px; font-size:25px; font-weight:bold; tex
 article.post_wrap h2 { margin:20px 0 0; font-size:15px; color:#777; text-align:center; }
 article.post_wrap h3 { margin:0; font-size:15px; color:#777; text-align:center; }
 article.post_wrap p { margin:0;  font-size:inherit; color:#666; }
-article.post_wrap blockquote { display:table; margin:50px auto 30px; padding:0 15px; font-size:17px; color:#888; text-align:center; background-color:#f5f5f5; }
+article.post_wrap blockquote { display:table; margin:75px auto 30px; padding:0 15px; font-size:17px; color:#888; text-align:center; background-color:#f5f5f5; }
 article.post_wrap ol { list-style:inherit; list-style-type:decimal; font-size:inherit;  list-style-position:inside;
  }
 article.post_wrap ul { font-size:inherit; font-weight:inherit; color:inherit; }
@@ -140,7 +140,7 @@ article.post_wrap hr { margin:7% 0; border:0; border-top:1px dashed #ddd; }
 article.post_wrap em { display:inline-block; width:100%; text-align:center; font-style:italic; }
 article.post_wrap strong { font-weight:bold; }
 article.post_wrap img { display:block; margin:30px auto 0; max-width:80%; width:auto; height:auto; }
-article.post_wrap img + em { display:block; text-align:center; font-size:14px; color:#aaa; }
+article.post_wrap img + em, article.post_wrap p em { display:block; text-align:center; font-size:14px; color:#aaa; }
 article.post_wrap a { text-decoration:underline; }
 
 article.post_wrap .gallery_wrap { display:grid; width:100%; margin:30px auto 10px; }
