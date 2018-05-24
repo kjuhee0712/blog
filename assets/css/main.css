@@ -137,7 +137,7 @@ article.post_wrap ul li:before { content:"- "; }
 article.post_wrap .highlighter-rouge { display:table; margin:30px auto; padding:15px 20px; color:#777; width:100%; height:auto; background:#EBEBEB;  font-size:inherit; border-radius:5px; }
 article.post_wrap .highlighter-rouge code { letter-spacing:0; font-size:inherit; }
 article.post_wrap hr { margin:7% 0; border:0; border-top:1px dashed #ddd; }
-article.post_wrap em { font-style:italic; }
+article.post_wrap em { display:inline-block; width:100%; text-align:center; font-style:italic; }
 article.post_wrap strong { font-weight:bold; }
 article.post_wrap img { display:block; margin:30px auto 0; max-width:80%; width:auto; height:auto; }
 article.post_wrap img + em { display:block; text-align:center; font-size:14px; color:#aaa; }
