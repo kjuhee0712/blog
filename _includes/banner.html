@@ -6,7 +6,7 @@
 		 	<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url">
 		 		<img src="{{ post.image-s }}" alt="post image" />
 		 		<dl>
-			  	   	<dt class="title" itemprop="name">{{ post.title }}</dt>
+			  	   	<dt class="title" itemprop="name">{{ post.subtitle }}</dt>
 					<dd class="excerpt" itemprop="description">{{ post.description }}</dd> 
 					<dd class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y. %-m. %-d." }}</dd>
 		 		</dl>
