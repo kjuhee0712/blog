@@ -145,7 +145,7 @@ article.post_wrap a { text-decoration:underline; }
 
 article.post_wrap .gallery_wrap { display:grid; width:100%; margin:30px auto 10px; }
 article.post_wrap .gallery_wrap .slick-prev, article.post_wrap .gallery_wrap .slick-next { top:50%; margin-top:-17px; z-index:1; font-size:0; transform: scale(.5); }
-article.post_wrap .gallery_wrap img { width:100%; margin:0; }
+article.post_wrap .gallery_wrap img { width:100%; margin:0 auto; }
  
 .post .tag_box { display:inline-block; margin-top:7%; padding:30px 0 35px; width:100%; height:auto; border-top:1px dashed #ddd; }
 .post .tag_box li { display:inline-block; margin:6px 0 0 0; padding:0 5px 3px; width:initial; height:initial; border:0; border-radius:3px; list-style:none; text-overflow:clip; font-size:11px; border:1px solid #ddd; color:#888; letter-spacing:2px; }
