@@ -143,7 +143,7 @@ article.post_wrap img { display:block; margin:30px auto 0; max-width:80%; width:
 article.post_wrap img + em { display:block; text-align:center; font-size:14px; color:#aaa; }
 article.post_wrap a { text-decoration:underline; }
 
-article.post_wrap .gallery_wrap { display:grid; width:100%; margin:50px auto;  }
+article.post_wrap .gallery_wrap { display:grid; width:100%; margin:50px auto 10px; }
 article.post_wrap .gallery_wrap .slick-prev, article.post_wrap .gallery_wrap .slick-next { top:50%; margin-top:-17px; z-index:1; font-size:0; transform: scale(.5); }
 article.post_wrap .gallery_wrap img { width:100%; }
  
