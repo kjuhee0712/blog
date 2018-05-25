@@ -124,8 +124,8 @@
 section.post { background-color:#fff; padding:4% 7% 7% 7%; }
 article.post_wrap { color:#444; font-size:14px; }
 article.post_wrap * { letter-spacing:0; }
-article.post_wrap h1 { margin:75px 0 10px; font-size:25px; font-weight:bold; text-align:center; }
-article.post_wrap h2 { margin:20px 0 0; font-size:15px; color:#777; text-align:center; }
+article.post_wrap h1 { margin:100px 0 10px; font-size:25px; font-weight:bold; text-align:center; }
+article.post_wrap h2 { margin:50px 0 0; font-size:15px; color:#777; text-align:center; }
 article.post_wrap h3 { margin:0; font-size:15px; color:#777; text-align:center; }
 article.post_wrap p { margin:0;  font-size:inherit; color:#666; }
 article.post_wrap blockquote { display:table; margin:75px auto 30px; padding:0 15px; font-size:17px; color:#888; text-align:center; background-color:#f5f5f5; }
@@ -139,11 +139,11 @@ article.post_wrap .highlighter-rouge code { letter-spacing:0; font-size:inherit;
 article.post_wrap hr { margin:7% 0; border:0; border-top:1px dashed #ddd; }
 article.post_wrap em { display:inline-block; width:100%; text-align:center; font-style:italic; }
 article.post_wrap strong { font-weight:bold; }
-article.post_wrap img { display:block; margin:75px auto 10px; max-width:100%; width:auto; height:auto; }
+article.post_wrap img { display:block; margin:50px auto 10px; max-width:100%; width:auto; height:auto; }
 article.post_wrap img + em, article.post_wrap p em { display:block; text-align:center; font-size:14px; color:#aaa; }
 article.post_wrap a { text-decoration:underline; }
 
-article.post_wrap .gallery_wrap { display:grid; width:100%; margin:75px auto 10px; }
+article.post_wrap .gallery_wrap { display:grid; width:100%; margin:50px auto 10px; }
 article.post_wrap .gallery_wrap .slick-prev, article.post_wrap .gallery_wrap .slick-next { top:50%; margin-top:-17px; z-index:1; font-size:0; transform: scale(.5); }
 article.post_wrap .gallery_wrap img { width:100%; max-width:none; margin:0 auto; }
  
